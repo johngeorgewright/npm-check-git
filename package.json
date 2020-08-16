@@ -4,6 +4,9 @@
   "description": "Checks if a git dependency requires an update",
   "main": "dist/index.js",
   "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc",
+    "postbuild": "rimraf dist/**/*.test.ts",
     "test": "jest"
   },
   "repository": {
@@ -22,11 +25,14 @@
   },
   "homepage": "https://github.com/johngeorgewright/npm-check-git#readme",
   "devDependencies": {
+    "@types/hosted-git-info": "^3.0.0",
     "@types/jest": "^26.0.10",
+    "@types/pacote": "^11.1.0",
     "husky": "^4.2.5",
     "jest": "^26.4.0",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
     "ts-jest": "^26.2.0",
     "typescript": "^3.9.7"
   },
@@ -39,5 +45,10 @@
     "*.{md,json,js,jsx,ts,tsx,yml,yaml}": [
       "prettier --ignore-path .gitignore --write"
     ]
+  },
+  "dependencies": {
+    "hosted-git-info": "^3.0.5",
+    "npm-package-arg": "^8.0.1",
+    "pacote": "^11.1.11"
   }
 }
