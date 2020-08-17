@@ -48,7 +48,6 @@
   },
   "dependencies": {
     "hosted-git-info": "^3.0.5",
-    "npm-package-arg": "^8.0.1",
     "pacote": "^11.1.11"
   }
 }
