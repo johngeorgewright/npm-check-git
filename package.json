@@ -7,6 +7,7 @@
     "prebuild": "rimraf dist",
     "build": "tsc",
     "postbuild": "rimraf dist/**/*.test.ts",
+    "prepublishOnly": "npm run build",
     "test": "jest"
   },
   "repository": {
@@ -25,19 +26,25 @@
   },
   "homepage": "https://github.com/johngeorgewright/npm-check-git#readme",
   "devDependencies": {
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
     "@types/hosted-git-info": "^3.0.0",
     "@types/jest": "^26.0.10",
     "@types/pacote": "^11.1.0",
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "^3.2.0",
     "husky": "^4.2.5",
     "jest": "^26.4.0",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "rimraf": "^3.0.2",
+    "semantic-release": "^17.1.1",
     "ts-jest": "^26.2.0",
     "typescript": "^3.9.7"
   },
   "husky": {
     "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "lint-staged"
     }
   },
@@ -49,5 +56,10 @@
   "dependencies": {
     "hosted-git-info": "^3.0.5",
     "pacote": "^11.1.11"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
