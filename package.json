@@ -1,6 +1,6 @@
 {
   "name": "npm-check-git",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Checks if a git dependency requires an update",
   "main": "dist/npm-check-git.js",
   "scripts": {
