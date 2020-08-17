@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "Checks if a git dependency requires an update",
   "main": "dist/npm-check-git.js",
+  "bin": "dist/cli/index.js",
   "scripts": {
+    "cli": "ts-node src/cli",
     "prebuild": "rimraf dist",
     "build": "tsc",
     "postbuild": "rimraf dist/**/*.test.ts*",
@@ -40,6 +42,7 @@
     "rimraf": "^3.0.2",
     "semantic-release": "^17.1.1",
     "ts-jest": "^26.2.0",
+    "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
   },
   "husky": {
@@ -55,7 +58,8 @@
   },
   "dependencies": {
     "hosted-git-info": "^3.0.5",
-    "pacote": "^11.1.11"
+    "pacote": "^11.1.11",
+    "yargs": "^15.4.1"
   },
   "config": {
     "commitizen": {

@@ -31,7 +31,9 @@ export default class NpmGitRepo {
     const matches = regexp.exec(result.stdout)
 
     if (!matches) {
-      throw new Error(`Cannot parse ${packageName} as a git dependency`)
+      throw new Error(
+        `Cannot parse ${packageName} as a git dependency. Is it definitely installed? If so, maybe it has been installed from the NPM registry.`
+      )
     }
 
     const [, githubURL, localSha] = matches
