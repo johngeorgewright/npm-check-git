@@ -26,7 +26,23 @@ export default class NpmGitRepo {
   }
 
   static async factory(packageName: string, committish: string = 'master') {
-    const result = await exec(`npm list ${packageName}`)
+    let result: {
+      stdout: string
+      stderr: string
+    }
+
+    try {
+      result = await exec(`npm list ${packageName}`)
+    } catch (error) {
+      if (error.code === 128) {
+        throw new Error(
+          `Ambiguous commit reference ${committish}. Unknown revision or path not in the tree.`
+        )
+      }
+
+      throw error
+    }
+
     const regexp = new RegExp(`${packageName}@\\S+\\s+\\(([^#]+)#(\\w+)`)
     const matches = regexp.exec(result.stdout)
 
