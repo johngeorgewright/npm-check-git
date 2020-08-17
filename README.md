@@ -3,13 +3,17 @@
 Checks if a git dependency is up to date.
 
 ```
-npm i npm-check-git github:npm/libnpm#master
+npm i npm-check-git github:npm/libnpm#latest
 ```
 
 ```javascript
 const npmCheckGit = require('npm-check-git')
 
-npmCheckGit('libnpm') // true | false
-```
+npmCheckGit(
+  //package name
+  'libnpm',
 
-Currently limited to `master` tag only. Waiting on https://github.com/npm/pacote/issues/50.
+  // branch or commit ref (defaults to master)
+  'latest'
+) // true | false
+```

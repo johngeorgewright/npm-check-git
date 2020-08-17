@@ -2,7 +2,7 @@
   "name": "npm-check-git",
   "version": "0.0.0",
   "description": "Checks if a git dependency requires an update",
-  "main": "dist/index.js",
+  "main": "dist/npm-check-git.js",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
