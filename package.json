@@ -6,7 +6,7 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
-    "postbuild": "rimraf dist/**/*.test.ts",
+    "postbuild": "rimraf dist/**/*.test.ts*",
     "prepublishOnly": "npm run build",
     "test": "jest"
   },
