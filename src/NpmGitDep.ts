@@ -2,7 +2,7 @@ import hostedGitInfo from 'hosted-git-info'
 import pacote from 'pacote'
 import exec from './exec'
 
-export default class NpmGitRepo {
+export default class NpmGitDep {
   readonly committish: string
   readonly githubURL: string
   readonly localSha: string
