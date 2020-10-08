@@ -10,7 +10,7 @@
     "build": "tsc",
     "postbuild": "rimraf dist/**/*.test.ts*",
     "prepublishOnly": "npm run build",
-    "test": "jest"
+    "test": "jest src"
   },
   "repository": {
     "type": "git",
