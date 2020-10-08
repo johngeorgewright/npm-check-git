@@ -59,7 +59,7 @@
   "dependencies": {
     "hosted-git-info": "^3.0.5",
     "pacote": "^11.1.11",
-    "yargs": "^15.4.1"
+    "yargs": "^16.0.3"
   },
   "config": {
     "commitizen": {
