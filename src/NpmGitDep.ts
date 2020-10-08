@@ -3,22 +3,12 @@ import pacote from 'pacote'
 import exec from './exec'
 
 export default class NpmGitDep {
-  readonly committish: string
-  readonly githubURL: string
-  readonly localSha: string
-  readonly packageName: string
-
   private constructor(
-    packageName: string,
-    githubURL: string,
-    committish: string,
-    localSha: string
-  ) {
-    this.committish = committish
-    this.githubURL = githubURL
-    this.localSha = localSha
-    this.packageName = packageName
-  }
+    public readonly packageName: string,
+    public readonly githubURL: string,
+    public readonly committish: string,
+    public readonly localSha: string
+  ) {}
 
   async getRemoteSha() {
     const url = await pacote.resolve(`${this.githubURL}#${this.committish}`)
