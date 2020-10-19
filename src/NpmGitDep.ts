@@ -12,7 +12,7 @@ export default class NpmGitDep {
 
   async getRemoteSha() {
     const url = await pacote.resolve(`${this.githubURL}#${this.committish}`)
-    return hostedGitInfo.fromUrl(url).committish
+    return hostedGitInfo.fromUrl(url)?.committish
   }
 
   static async factory(packageName: string, committish: string = 'master') {
