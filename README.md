@@ -27,6 +27,6 @@ npmCheckGit(
 Or using the CLI:
 
 ```
-$> npm-check-git --package libnpm --ref latest
+$> npm-check-git check --package libnpm --ref latest
 ✅ libnpm is up to date
 ```
