@@ -15,13 +15,15 @@ To test programatically:
 ```javascript
 const npmCheckGit = require('npm-check-git')
 
-npmCheckGit(
-  //package name
-  'libnpm',
+;(async () => {
+  await npmCheckGit(
+    //package name
+    'libnpm',
 
-  // branch or commit ref (defaults to master)
-  'latest'
-) // true | false
+    // branch or commit ref (defaults to master)
+    'latest'
+  ) // true | false
+})()
 ```
 
 Or using the CLI:
