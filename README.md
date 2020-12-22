@@ -13,7 +13,7 @@ npm i npm-check-git github:npm/libnpm#latest
 To test programatically:
 
 ```javascript
-const npmCheckGit = require('npm-check-git')
+import npmCheckGit from 'npm-check-git'
 
 ;(async () => {
   await npmCheckGit(
