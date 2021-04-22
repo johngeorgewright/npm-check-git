@@ -1,6 +1,6 @@
 import { Argv } from 'yargs'
 import { HandlerArguments } from '../types'
-import npmCheckGit from '../../npm-check-git'
+import { checkDependency } from '../../npm-check-git'
 
 export const command = 'check'
 
@@ -23,7 +23,7 @@ export function builder(yargs: Argv) {
 }
 
 export async function handler(argv: HandlerArguments<typeof builder>) {
-  if (await npmCheckGit(argv.package, argv.ref)) {
+  if (await checkDependency(argv.package, argv.ref)) {
     console.info(`✅ ${argv.package} is up to date`)
   } else {
     console.error(`❌ ${argv.package} is out of date`)
