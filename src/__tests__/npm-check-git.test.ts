@@ -1,6 +1,6 @@
 import * as pathHelper from 'path'
 import exec from '../exec'
-import { getOutdated, checkDependency } from '../npm-check-git'
+import { checkDependency } from '../npm-check-git'
 
 jest.setTimeout(120_000)
 
