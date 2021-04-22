@@ -2,5 +2,6 @@
 
 import yargs from 'yargs'
 import * as check from './cmd/check'
+import * as outdated from './cmd/outdated'
 
-yargs.command(check).help().demandCommand().argv
+yargs.command(check).command(outdated).help().demandCommand().argv

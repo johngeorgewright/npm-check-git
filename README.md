@@ -13,16 +13,25 @@ npm i npm-check-git github:npm/libnpm#latest
 To test programatically:
 
 ```javascript
-import npmCheckGit from 'npm-check-git'
-
+import { getOutdated, checkDependency } from 'npm-check-git'
 ;(async () => {
-  await npmCheckGit(
+  /**
+   * To check 1 specific package
+   */
+  await checkDependency(
     //package name
     'libnpm',
 
     // branch or commit ref (defaults to master)
     'latest'
   ) // true | false
+
+  /**
+   * To check all depdencies in your package.json
+   */
+  for await (const outdated of getOutdated()) {
+    console.info(outdated)
+  }
 })()
 ```
 
@@ -31,4 +40,7 @@ Or using the CLI:
 ```
 $> npm-check-git check --package libnpm --ref latest
 ✅ libnpm is up to date
+
+$> npm-check-git outdated
+libnpm is out of date
 ```

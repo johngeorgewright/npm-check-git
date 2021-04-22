@@ -10,7 +10,7 @@
     "build": "tsc",
     "postbuild": "rimraf dist/**/*.test.ts*",
     "prepublishOnly": "npm run build",
-    "test": "jest src",
+    "test": "jest --runInBand src",
     "prepare": "husky install"
   },
   "repository": {

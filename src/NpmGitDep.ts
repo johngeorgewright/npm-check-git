@@ -15,14 +15,18 @@ export default class NpmGitDep {
     return hostedGitInfo.fromUrl(url)?.committish
   }
 
-  static async factory(packageName: string, committish: string = 'master') {
+  static async factory(
+    packageName: string,
+    committish: string = 'master',
+    packageRoot: string = process.cwd()
+  ) {
     let result: {
       stdout: string
       stderr: string
     }
 
     try {
-      result = await exec(`npm list ${packageName}`)
+      result = await exec(`npm list ${packageName}`, { cwd: packageRoot })
     } catch (error) {
       if (error.code === 128) {
         throw new Error(
