@@ -1,0 +1,16 @@
+{
+  "name": "test2-package",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Test file",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "cli0": "github:npm/cli",
+    "cli1": "git+ssh://git@github.com:npm/cli.git#v1.0.27",
+    "cli2": "git+ssh://git@github.com:npm/cli#semver:^5.0",
+    "cli3": "git+https://isaacs@github.com/npm/cli.git",
+    "cli4": "git://github.com/npm/cli.git#v1.0.27"
+  }
+}

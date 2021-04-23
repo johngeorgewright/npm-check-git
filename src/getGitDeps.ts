@@ -1,6 +1,6 @@
 import { readFile } from './fs'
 
-const REGEXP_GIT_VERSION = /^git(?:hub|\+ssh|\+http?|\+file)?:[^#]+(?:#(.+))?$/
+const REGEXP_GIT_VERSION = /^git(?:hub|\+ssh|\+https?|\+file)?:[^#]+(?:#(.+))?$/
 
 export default async function getGitDeps(packageRoot: string) {
   const content = await readFile(`${packageRoot}/package.json`, {
