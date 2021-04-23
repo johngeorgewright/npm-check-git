@@ -8,7 +8,7 @@
     "cli": "ts-node src/cli",
     "prebuild": "rimraf dist",
     "build": "tsc",
-    "postbuild": "rimraf dist/**/*.test.ts*",
+    "postbuild": "rimraf dist/**/*.test.js*",
     "prepublishOnly": "npm run build",
     "test": "jest --runInBand src",
     "prepare": "husky install"
