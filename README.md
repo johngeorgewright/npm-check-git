@@ -22,7 +22,7 @@ import { getOutdated, checkDependency } from 'npm-check-git'
     //package name
     'libnpm',
 
-    // branch or commit ref (defaults to master)
+    // *Optional* branch or commit ref (defaults to installed version)
     'latest'
   ) // true | false
 
@@ -38,7 +38,7 @@ import { getOutdated, checkDependency } from 'npm-check-git'
 Or using the CLI:
 
 ```
-$> npm-check-git check --package libnpm --ref latest
+$> npm-check-git check --package libnpm
 ✅ libnpm is up to date
 
 $> npm-check-git outdated

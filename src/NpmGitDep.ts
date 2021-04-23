@@ -1,6 +1,8 @@
 import hostedGitInfo from 'hosted-git-info'
 import pacote from 'pacote'
 import exec from './exec'
+import { tryCatch } from '@johngw/error'
+import getGitDeps from './getGitDeps'
 
 export default class NpmGitDep {
   private constructor(
@@ -17,28 +19,27 @@ export default class NpmGitDep {
 
   static async factory(
     packageName: string,
-    committish: string = 'master',
+    committish?: string,
     packageRoot: string = process.cwd()
   ) {
-    let result: {
-      stdout: string
-      stderr: string
-    }
+    const commitRef =
+      committish || (await this.getDefaultCommittish(packageName, packageRoot))
 
-    try {
-      result = await exec(`npm list ${packageName}`, { cwd: packageRoot })
-    } catch (error) {
-      if (error.code === 128) {
-        throw new Error(
-          `Ambiguous commit reference ${committish}. Unknown revision or path not in the tree.`
-        )
+    const { stdout: installedInfo } = await tryCatch(
+      () => exec(`npm list ${packageName}`, { cwd: packageRoot }),
+      (error) => {
+        if (error.code === 128) {
+          throw new Error(
+            `Ambiguous commit reference for ${packageName}. Unknown revision or path not in the tree.`
+          )
+        }
+
+        throw error
       }
-
-      throw error
-    }
+    )
 
     const regexp = new RegExp(`${packageName}@\\S+\\s+\\(([^#]+)#(\\w+)`)
-    const matches = regexp.exec(result.stdout)
+    const matches = regexp.exec(installedInfo)
 
     if (!matches) {
       throw new Error(
@@ -47,6 +48,19 @@ export default class NpmGitDep {
     }
 
     const [, githubURL, localSha] = matches
-    return new this(packageName, githubURL, committish, localSha)
+    return new this(packageName, githubURL, commitRef, localSha)
+  }
+
+  static async getDefaultCommittish(
+    packageName: string,
+    packageRoot: string = process.cwd()
+  ) {
+    return tryCatch(
+      async () => {
+        const deps = await getGitDeps(packageRoot)
+        return deps[packageName] || 'master'
+      },
+      async () => 'master'
+    )
   }
 }

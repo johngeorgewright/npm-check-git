@@ -3,7 +3,7 @@ import getGitDeps from './getGitDeps'
 
 export async function checkDependency(
   packageName: string,
-  committish: string = 'master',
+  committish?: string,
   packageRoot = process.cwd()
 ) {
   const npmGitDep = await NpmGitDep.factory(
@@ -26,7 +26,7 @@ export async function* getOutdated(packageRoot = process.cwd()) {
 
 export async function getLocalSha(
   packageName: string,
-  committish: string = 'master',
+  committish?: string,
   packageRoot = process.cwd()
 ) {
   const npmGitDep = await NpmGitDep.factory(
@@ -39,7 +39,7 @@ export async function getLocalSha(
 
 export async function getRemoteSha(
   packageName: string,
-  committish: string = 'master',
+  committish?: string,
   packageRoot = process.cwd()
 ) {
   const npmGitDep = await NpmGitDep.factory(
