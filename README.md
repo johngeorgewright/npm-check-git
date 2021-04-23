@@ -1,6 +1,6 @@
 # npm-check-git
 
-Checks if a git dependency is up to date.
+Scans for outdated git dependencies.
 
 [![Node.js Package](https://github.com/johngeorgewright/npm-check-git/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/johngeorgewright/npm-check-git/actions/workflows/npm-publish.yml)
 
