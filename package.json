@@ -3,12 +3,15 @@
   "version": "0.0.1",
   "description": "Scans for outdated git dependencies",
   "main": "dist/npm-check-git.js",
-  "bin": "dist/cli/index.js",
+  "bin": {
+    "npm-check-git": "dist/cli/index.js",
+    "npmcg": "dist/cli/index.js"
+  },
   "scripts": {
     "cli": "ts-node src/cli",
     "prebuild": "rimraf dist",
     "build": "tsc",
-    "postbuild": "rimraf dist/**/*.test.js*",
+    "postbuild": "rimraf 'dist/**/?(__tests__|__mocks__|__setup__|*.test.*)'",
     "prepublishOnly": "npm run build",
     "test": "jest --runInBand src",
     "prepare": "husky install"
