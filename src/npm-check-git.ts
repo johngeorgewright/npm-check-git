@@ -15,9 +15,7 @@ export async function checkDependency(
 }
 
 export async function* getOutdated(packageRoot = process.cwd()) {
-  const packages = await getGitDeps(packageRoot)
-
-  for (const [packageName, committish] of Object.entries(packages)) {
+  for await (const [packageName, committish] of getGitDeps(packageRoot)) {
     if (!(await checkDependency(packageName, committish, packageRoot))) {
       yield packageName
     }
