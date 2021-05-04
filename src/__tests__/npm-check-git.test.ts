@@ -7,7 +7,7 @@ jest.setTimeout(120_000)
 const packageRoot = pathHelper.join(__dirname, 'test-package')
 
 beforeAll(async () => {
-  await exec('npm install', { cwd: packageRoot })
+  await exec('npm ci', { cwd: packageRoot })
 })
 
 afterAll(async () => {
