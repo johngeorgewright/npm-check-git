@@ -57,8 +57,12 @@ export default class NpmGitDep {
   ) {
     return tryCatch(
       async () => {
-        const deps = await getGitDeps(packageRoot)
-        return deps[packageName] || 'master'
+        for await (const [name, version] of getGitDeps(packageRoot)) {
+          if (name === packageName) {
+            return version || 'master'
+          }
+        }
+        return 'master'
       },
       async () => 'master'
     )
