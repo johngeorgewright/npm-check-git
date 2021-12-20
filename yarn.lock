@@ -392,7 +392,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:^15.0.0":
+"@commitlint/cli@npm:15.0.0":
   version: 15.0.0
   resolution: "@commitlint/cli@npm:15.0.0"
   dependencies:
@@ -411,7 +411,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^15.0.0":
+"@commitlint/config-conventional@npm:15.0.0":
   version: 15.0.0
   resolution: "@commitlint/config-conventional@npm:15.0.0"
   dependencies:
@@ -1204,7 +1204,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/commit-analyzer@npm:^9.0.1, @semantic-release/commit-analyzer@npm:^9.0.2":
+"@semantic-release/commit-analyzer@npm:9.0.2, @semantic-release/commit-analyzer@npm:^9.0.2":
   version: 9.0.2
   resolution: "@semantic-release/commit-analyzer@npm:9.0.2"
   dependencies:
@@ -1235,7 +1235,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/git@npm:^10.0.0":
+"@semantic-release/git@npm:10.0.1":
   version: 10.0.1
   resolution: "@semantic-release/git@npm:10.0.1"
   dependencies:
@@ -1253,7 +1253,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:^8.0.0, @semantic-release/github@npm:^8.0.1":
+"@semantic-release/github@npm:8.0.2, @semantic-release/github@npm:^8.0.0":
   version: 8.0.2
   resolution: "@semantic-release/github@npm:8.0.2"
   dependencies:
@@ -1279,7 +1279,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/npm@npm:^8.0.0, @semantic-release/npm@npm:^8.0.1":
+"@semantic-release/npm@npm:8.0.3, @semantic-release/npm@npm:^8.0.0":
   version: 8.0.3
   resolution: "@semantic-release/npm@npm:8.0.3"
   dependencies:
@@ -1302,7 +1302,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/release-notes-generator@npm:^10.0.0, @semantic-release/release-notes-generator@npm:^10.0.2":
+"@semantic-release/release-notes-generator@npm:10.0.3, @semantic-release/release-notes-generator@npm:^10.0.0":
   version: 10.0.3
   resolution: "@semantic-release/release-notes-generator@npm:10.0.3"
   dependencies:
@@ -1432,7 +1432,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/hosted-git-info@npm:^3.0.0":
+"@types/hosted-git-info@npm:3.0.2":
   version: 3.0.2
   resolution: "@types/hosted-git-info@npm:3.0.2"
   checksum: b922a6f13c79d0388762a92e943d098cbc950be20754508de4946d3529ecab730e3be01ebdbe0a235b85ddcc3f7251d8df3073d98978d43018a76200b47e548d
@@ -1532,7 +1532,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/pacote@npm:^11.1.0":
+"@types/pacote@npm:11.1.1":
   version: 11.1.1
   resolution: "@types/pacote@npm:11.1.1"
   dependencies:
@@ -2683,7 +2683,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commitizen@npm:^4.0.3, commitizen@npm:^4.1.2":
+"commitizen@npm:4.2.4, commitizen@npm:^4.0.3":
   version: 4.2.4
   resolution: "commitizen@npm:4.2.4"
   dependencies:
@@ -2942,7 +2942,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cz-conventional-changelog@npm:^3.2.0":
+"cz-conventional-changelog@npm:3.3.0":
   version: 3.3.0
   resolution: "cz-conventional-changelog@npm:3.3.0"
   dependencies:
@@ -4331,7 +4331,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^7.0.1":
+"husky@npm:7.0.4":
   version: 7.0.4
   resolution: "husky@npm:7.0.4"
   bin:
@@ -5404,7 +5404,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:^26.6.3":
+"jest@npm:26.6.3":
   version: 26.6.3
   resolution: "jest@npm:26.6.3"
   dependencies:
@@ -5805,7 +5805,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^12.0.2":
+"lint-staged@npm:12.1.3":
   version: 12.1.3
   resolution: "lint-staged@npm:12.1.3"
   dependencies:
@@ -6600,32 +6600,32 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "npm-check-git@workspace:."
   dependencies:
-    "@commitlint/cli": ^15.0.0
-    "@commitlint/config-conventional": ^15.0.0
+    "@commitlint/cli": 15.0.0
+    "@commitlint/config-conventional": 15.0.0
     "@johngw/error": ^2.0.0
-    "@semantic-release/commit-analyzer": ^9.0.1
-    "@semantic-release/git": ^10.0.0
-    "@semantic-release/github": ^8.0.1
-    "@semantic-release/npm": ^8.0.1
-    "@semantic-release/release-notes-generator": ^10.0.2
-    "@types/hosted-git-info": ^3.0.0
+    "@semantic-release/commit-analyzer": 9.0.2
+    "@semantic-release/git": 10.0.1
+    "@semantic-release/github": 8.0.2
+    "@semantic-release/npm": 8.0.3
+    "@semantic-release/release-notes-generator": 10.0.3
+    "@types/hosted-git-info": 3.0.2
     "@types/jest": ^27.0.0
     "@types/node": 17.0.1
-    "@types/pacote": ^11.1.0
+    "@types/pacote": 11.1.1
     "@types/yargs": 17.0.7
-    commitizen: ^4.1.2
-    cz-conventional-changelog: ^3.2.0
+    commitizen: 4.2.4
+    cz-conventional-changelog: 3.3.0
     hosted-git-info: ^4.0.0
-    husky: ^7.0.1
-    jest: ^26.6.3
-    lint-staged: ^12.0.2
+    husky: 7.0.4
+    jest: 26.6.3
+    lint-staged: 12.1.3
     pacote: ^12.0.0
-    prettier: ^2.0.5
-    rimraf: ^3.0.2
-    semantic-release: ^18.0.0
-    ts-jest: ^26.5.5
-    ts-node: ^10.0.0
-    typescript: ^4.0.3
+    prettier: 2.5.1
+    rimraf: 3.0.2
+    semantic-release: 18.0.1
+    ts-jest: 26.5.6
+    ts-node: 10.4.0
+    typescript: 4.5.4
     yargs: ^17.0.1
   bin:
     npm-check-git: dist/cli/index.js
@@ -7357,7 +7357,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.0.5":
+"prettier@npm:2.5.1":
   version: 2.5.1
   resolution: "prettier@npm:2.5.1"
   bin:
@@ -7860,7 +7860,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:*, rimraf@npm:^3.0.0, rimraf@npm:^3.0.2":
+"rimraf@npm:*, rimraf@npm:3.0.2, rimraf@npm:^3.0.0, rimraf@npm:^3.0.2":
   version: 3.0.2
   resolution: "rimraf@npm:3.0.2"
   dependencies:
@@ -7970,7 +7970,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:^18.0.0":
+"semantic-release@npm:18.0.1":
   version: 18.0.1
   resolution: "semantic-release@npm:18.0.1"
   dependencies:
@@ -8886,7 +8886,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:^26.5.5":
+"ts-jest@npm:26.5.6":
   version: 26.5.6
   resolution: "ts-jest@npm:26.5.6"
   dependencies:
@@ -8909,7 +8909,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-node@npm:^10.0.0":
+"ts-node@npm:10.4.0":
   version: 10.4.0
   resolution: "ts-node@npm:10.4.0"
   dependencies:
@@ -9063,7 +9063,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.0.3, typescript@npm:^4.4.3":
+"typescript@npm:4.5.4, typescript@npm:^4.4.3":
   version: 4.5.4
   resolution: "typescript@npm:4.5.4"
   bin:
@@ -9073,7 +9073,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.0.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.4.3#~builtin<compat/typescript>":
+"typescript@patch:typescript@4.5.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.4.3#~builtin<compat/typescript>":
   version: 4.5.4
   resolution: "typescript@patch:typescript@npm%3A4.5.4#~builtin<compat/typescript>::version=4.5.4&hash=493e53"
   bin:
