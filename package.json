@@ -12,7 +12,7 @@
     "prebuild": "rimraf dist",
     "build": "tsc",
     "postbuild": "rimraf 'dist/**/?(__tests__|__mocks__|__setup__|*.test.*)'",
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "yarn build",
     "test": "jest --runInBand src",
     "prepare": "husky install"
   },
@@ -42,7 +42,9 @@
     "@semantic-release/release-notes-generator": "^10.0.2",
     "@types/hosted-git-info": "^3.0.0",
     "@types/jest": "^27.0.0",
+    "@types/node": "17.0.1",
     "@types/pacote": "^11.1.0",
+    "@types/yargs": "17.0.7",
     "commitizen": "^4.1.2",
     "cz-conventional-changelog": "^3.2.0",
     "husky": "^7.0.1",
@@ -70,5 +72,6 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "packageManager": "yarn@3.1.1"
 }
