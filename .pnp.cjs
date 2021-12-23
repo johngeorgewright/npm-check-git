@@ -47,7 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:27.0.3"],
             ["@types/node", "npm:17.0.1"],
             ["@types/pacote", "npm:11.1.1"],
-            ["@types/yargs", "npm:17.0.7"],
+            ["@types/yargs", "npm:17.0.8"],
             ["commitizen", "npm:4.2.4"],
             ["cz-conventional-changelog", "npm:3.3.0"],
             ["hosted-git-info", "npm:4.0.2"],
@@ -2245,10 +2245,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:17.0.7", {
-          "packageLocation": "./.yarn/cache/@types-yargs-npm-17.0.7-2715398006-520e803720.zip/node_modules/@types/yargs/",
+        ["npm:17.0.8", {
+          "packageLocation": "./.yarn/cache/@types-yargs-npm-17.0.8-e5cb83d738-63d06700ff.zip/node_modules/@types/yargs/",
           "packageDependencies": [
-            ["@types/yargs", "npm:17.0.7"],
+            ["@types/yargs", "npm:17.0.8"],
             ["@types/yargs-parser", "npm:20.2.1"]
           ],
           "linkType": "HARD",
@@ -7274,7 +7274,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:27.0.3"],
             ["@types/node", "npm:17.0.1"],
             ["@types/pacote", "npm:11.1.1"],
-            ["@types/yargs", "npm:17.0.7"],
+            ["@types/yargs", "npm:17.0.8"],
             ["commitizen", "npm:4.2.4"],
             ["cz-conventional-changelog", "npm:3.3.0"],
             ["hosted-git-info", "npm:4.0.2"],
