@@ -55,7 +55,7 @@
     "semantic-release": "19.0.2",
     "ts-jest": "27.1.3",
     "ts-node": "10.4.0",
-    "typescript": "4.5.4"
+    "typescript": "4.5.5"
   },
   "lint-staged": {
     "*.{md,json,js,jsx,ts,tsx,yml,yaml}": [
