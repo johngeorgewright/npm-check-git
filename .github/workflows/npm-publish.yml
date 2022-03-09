@@ -11,13 +11,10 @@ jobs:
       - uses: actions/checkout@master
         with:
           token: ${{ secrets.PUSH_TOKEN }}
-      - name: Get Node Version from NVM
-        run: echo ::set-output name=NODE_VERSION::$(cat .nvmrc)
-        id: nvm
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ steps.nvm.outputs.NODE_VERSION }}
+          node-version-file: .nvmrc
       - run: yarn --immutable
       - run: yarn build
       - run: yarn test
