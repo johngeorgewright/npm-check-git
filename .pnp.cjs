@@ -48,7 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/yargs", "npm:17.0.9"],\
             ["commitizen", "npm:4.2.4"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
-            ["hosted-git-info", "npm:4.0.2"],\
+            ["hosted-git-info", "npm:5.0.0"],\
             ["husky", "npm:7.0.4"],\
             ["jest", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:27.5.1"],\
             ["lint-staged", "npm:12.3.6"],\
@@ -5200,6 +5200,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lru-cache", "npm:6.0.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:5.0.0", {\
+          "packageLocation": "./.yarn/cache/hosted-git-info-npm-5.0.0-22560cf9c6-515e69463d.zip/node_modules/hosted-git-info/",\
+          "packageDependencies": [\
+            ["hosted-git-info", "npm:5.0.0"],\
+            ["lru-cache", "npm:7.5.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["html-encoding-sniffer", [\
@@ -7011,6 +7019,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lru-cache", "npm:7.4.1"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:7.5.1", {\
+          "packageLocation": "./.yarn/cache/lru-cache-npm-7.5.1-4ec57c38e8-f6980281c6.zip/node_modules/lru-cache/",\
+          "packageDependencies": [\
+            ["lru-cache", "npm:7.5.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["make-dir", [\
@@ -7749,7 +7764,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/yargs", "npm:17.0.9"],\
             ["commitizen", "npm:4.2.4"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
-            ["hosted-git-info", "npm:4.0.2"],\
+            ["hosted-git-info", "npm:5.0.0"],\
             ["husky", "npm:7.0.4"],\
             ["jest", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:27.5.1"],\
             ["lint-staged", "npm:12.3.6"],\
