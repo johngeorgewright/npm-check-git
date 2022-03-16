@@ -64,7 +64,7 @@
   },
   "dependencies": {
     "@johngw/error": "^2.0.0",
-    "hosted-git-info": "^4.0.0",
+    "hosted-git-info": "^5.0.0",
     "pacote": "^13.0.0",
     "yargs": "^17.0.1"
   },
