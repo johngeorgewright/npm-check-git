@@ -1,6 +1,6 @@
 {
   "name": "npm-check-git",
-  "version": "0.0.1",
+  "version": "3.0.1",
   "description": "Scans for outdated git dependencies",
   "main": "dist/npm-check-git.js",
   "bin": {
@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/johngeorgewright/npm-check-git#readme",
   "devDependencies": {
-    "@commitlint/cli": "16.2.1",
+    "@commitlint/cli": "16.2.3",
     "@commitlint/config-conventional": "16.2.1",
     "@semantic-release/commit-analyzer": "9.0.2",
     "@semantic-release/git": "10.0.1",
@@ -65,7 +65,7 @@
   "dependencies": {
     "@johngw/error": "^2.0.0",
     "hosted-git-info": "^4.0.0",
-    "pacote": "^12.0.0",
+    "pacote": "^13.0.0",
     "yargs": "^17.0.1"
   },
   "config": {
