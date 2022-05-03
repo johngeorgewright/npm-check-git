@@ -1,6 +1,6 @@
 {
   "name": "npm-check-git",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Scans for outdated git dependencies",
   "main": "dist/npm-check-git.js",
   "bin": {
