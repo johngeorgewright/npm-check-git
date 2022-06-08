@@ -1,4 +1,4 @@
-import * as pathHelper from 'path'
+import * as pathHelper from 'node:path'
 import getGitDeps from '../getGitDeps'
 
 const packageRoot = pathHelper.join(__dirname, 'test2-package')

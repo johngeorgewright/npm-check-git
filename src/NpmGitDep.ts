@@ -28,11 +28,10 @@ export default class NpmGitDep {
     const { stdout: installedInfo } = await tryCatch(
       () => exec(`npm list ${packageName}`, { cwd: packageRoot }),
       (error) => {
-        if (error.code === 128) {
+        if (error.code === 128)
           throw new Error(
             `Ambiguous commit reference for ${packageName}. Unknown revision or path not in the tree.`
           )
-        }
 
         throw error
       }
@@ -41,11 +40,10 @@ export default class NpmGitDep {
     const regexp = new RegExp(`${packageName}@\\S+\\s+\\(([^#]+)#(\\w+)`)
     const matches = regexp.exec(installedInfo)
 
-    if (!matches) {
+    if (!matches)
       throw new Error(
         `Cannot parse ${packageName} as a git dependency. Is it definitely installed? If so, maybe it has been installed from the NPM registry.`
       )
-    }
 
     const [, githubURL, localSha] = matches
     return new this(packageName, githubURL, commitRef, localSha)
@@ -57,11 +55,8 @@ export default class NpmGitDep {
   ) {
     return tryCatch(
       async () => {
-        for await (const [name, version] of getGitDeps(packageRoot)) {
-          if (name === packageName) {
-            return version || 'master'
-          }
-        }
+        for await (const [name, version] of getGitDeps(packageRoot))
+          if (name === packageName) return version || 'master'
         return 'master'
       },
       async () => 'master'

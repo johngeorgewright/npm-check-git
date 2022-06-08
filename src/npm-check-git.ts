@@ -15,11 +15,9 @@ export async function checkDependency(
 }
 
 export async function* getOutdated(packageRoot = process.cwd()) {
-  for await (const [packageName, committish] of getGitDeps(packageRoot)) {
-    if (!(await checkDependency(packageName, committish, packageRoot))) {
+  for await (const [packageName, committish] of getGitDeps(packageRoot))
+    if (!(await checkDependency(packageName, committish, packageRoot)))
       yield packageName
-    }
-  }
 }
 
 export async function getLocalSha(
