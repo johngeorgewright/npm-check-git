@@ -28,8 +28,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@commitlint/cli", "npm:17.2.0"],\
-            ["@commitlint/config-conventional", "npm:17.2.0"],\
+            ["@commitlint/cli", "npm:17.3.0"],\
+            ["@commitlint/config-conventional", "npm:17.3.0"],\
             ["@johngw/error", "npm:2.2.0"],\
             ["@semantic-release/commit-analyzer", "virtual:93ff9e54e7e85ba03f8777529e2e31fd687b3208f0bfd29f9526626fccebedcf25fd704ae938492bcd5692d38a16927bd020804d445cde5885dc772e9e1e1ff9#npm:9.0.2"],\
             ["@semantic-release/git", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:10.0.1"],\
@@ -1080,17 +1080,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@commitlint/cli", [\
-        ["npm:17.2.0", {\
-          "packageLocation": "./.yarn/cache/@commitlint-cli-npm-17.2.0-660cb6c765-e850a2bfac.zip/node_modules/@commitlint/cli/",\
+        ["npm:17.3.0", {\
+          "packageLocation": "./.yarn/cache/@commitlint-cli-npm-17.3.0-4523c41580-9f544ea528.zip/node_modules/@commitlint/cli/",\
           "packageDependencies": [\
-            ["@commitlint/cli", "npm:17.2.0"],\
+            ["@commitlint/cli", "npm:17.3.0"],\
             ["@commitlint/format", "npm:17.0.0"],\
-            ["@commitlint/lint", "npm:17.2.0"],\
-            ["@commitlint/load", "npm:17.2.0"],\
+            ["@commitlint/lint", "npm:17.3.0"],\
+            ["@commitlint/load", "npm:17.3.0"],\
             ["@commitlint/read", "npm:17.2.0"],\
             ["@commitlint/types", "npm:17.0.0"],\
             ["execa", "npm:5.1.1"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash.isfunction", "npm:3.0.9"],\
             ["resolve-from", "npm:5.0.0"],\
             ["resolve-global", "npm:1.0.0"],\
             ["yargs", "npm:17.3.0"]\
@@ -1099,10 +1099,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@commitlint/config-conventional", [\
-        ["npm:17.2.0", {\
-          "packageLocation": "./.yarn/cache/@commitlint-config-conventional-npm-17.2.0-b4487b0349-c91f8f4aac.zip/node_modules/@commitlint/config-conventional/",\
+        ["npm:17.3.0", {\
+          "packageLocation": "./.yarn/cache/@commitlint-config-conventional-npm-17.3.0-d8ddc41628-cf11a2b538.zip/node_modules/@commitlint/config-conventional/",\
           "packageDependencies": [\
-            ["@commitlint/config-conventional", "npm:17.2.0"],\
+            ["@commitlint/config-conventional", "npm:17.3.0"],\
             ["conventional-changelog-conventionalcommits", "npm:5.0.0"]\
           ],\
           "linkType": "HARD"\
@@ -1120,12 +1120,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@commitlint/ensure", [\
-        ["npm:17.0.0", {\
-          "packageLocation": "./.yarn/cache/@commitlint-ensure-npm-17.0.0-cd46ef1c2c-5ce3c62441.zip/node_modules/@commitlint/ensure/",\
+        ["npm:17.3.0", {\
+          "packageLocation": "./.yarn/cache/@commitlint-ensure-npm-17.3.0-111c63ecb2-55f880497f.zip/node_modules/@commitlint/ensure/",\
           "packageDependencies": [\
-            ["@commitlint/ensure", "npm:17.0.0"],\
+            ["@commitlint/ensure", "npm:17.3.0"],\
             ["@commitlint/types", "npm:17.0.0"],\
-            ["lodash", "npm:4.17.21"]\
+            ["lodash.camelcase", "npm:4.3.0"],\
+            ["lodash.kebabcase", "npm:4.1.1"],\
+            ["lodash.snakecase", "npm:4.1.1"],\
+            ["lodash.startcase", "npm:4.4.0"],\
+            ["lodash.upperfirst", "npm:4.3.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1169,13 +1173,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@commitlint/lint", [\
-        ["npm:17.2.0", {\
-          "packageLocation": "./.yarn/cache/@commitlint-lint-npm-17.2.0-084451c5eb-e35f30b89e.zip/node_modules/@commitlint/lint/",\
+        ["npm:17.3.0", {\
+          "packageLocation": "./.yarn/cache/@commitlint-lint-npm-17.3.0-9a5c582d50-71a7b2cbb0.zip/node_modules/@commitlint/lint/",\
           "packageDependencies": [\
-            ["@commitlint/lint", "npm:17.2.0"],\
+            ["@commitlint/lint", "npm:17.3.0"],\
             ["@commitlint/is-ignored", "npm:17.2.0"],\
             ["@commitlint/parse", "npm:17.2.0"],\
-            ["@commitlint/rules", "npm:17.2.0"],\
+            ["@commitlint/rules", "npm:17.3.0"],\
             ["@commitlint/types", "npm:17.0.0"]\
           ],\
           "linkType": "HARD"\
@@ -1198,21 +1202,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:17.2.0", {\
-          "packageLocation": "./.yarn/cache/@commitlint-load-npm-17.2.0-4f0121cfc0-ac7c971049.zip/node_modules/@commitlint/load/",\
+        ["npm:17.3.0", {\
+          "packageLocation": "./.yarn/cache/@commitlint-load-npm-17.3.0-0c309a57dc-7049eb87f5.zip/node_modules/@commitlint/load/",\
           "packageDependencies": [\
-            ["@commitlint/load", "npm:17.2.0"],\
+            ["@commitlint/load", "npm:17.3.0"],\
             ["@commitlint/config-validator", "npm:17.1.0"],\
             ["@commitlint/execute-rule", "npm:17.0.0"],\
-            ["@commitlint/resolve-extends", "npm:17.1.0"],\
+            ["@commitlint/resolve-extends", "npm:17.3.0"],\
             ["@commitlint/types", "npm:17.0.0"],\
             ["@types/node", "npm:14.18.26"],\
             ["chalk", "npm:4.1.2"],\
             ["cosmiconfig", "npm:7.0.1"],\
-            ["cosmiconfig-typescript-loader", "virtual:4f0121cfc0531d8cdbbedc652738177115ad777755e82ac204f8c186035fcced9c7ec42ab6205fc073a4da8faba17267a89600f8154a9232d8970b83a3998165#npm:4.0.0"],\
-            ["lodash", "npm:4.17.21"],\
+            ["cosmiconfig-typescript-loader", "virtual:0c309a57dcf83911fac7c875fbd1cfccc2c110b4d1ac6371b86a69e6d7a7d02b4bf6533d768ef32051d2e4d9bb61b2cffc62bae6ccd52f3ee16fba662666edbe#npm:4.0.0"],\
+            ["lodash.isplainobject", "npm:4.0.6"],\
+            ["lodash.merge", "npm:4.6.2"],\
+            ["lodash.uniq", "npm:4.5.0"],\
             ["resolve-from", "npm:5.0.0"],\
-            ["ts-node", "virtual:4f0121cfc0531d8cdbbedc652738177115ad777755e82ac204f8c186035fcced9c7ec42ab6205fc073a4da8faba17267a89600f8154a9232d8970b83a3998165#npm:10.9.1"],\
+            ["ts-node", "virtual:0c309a57dcf83911fac7c875fbd1cfccc2c110b4d1ac6371b86a69e6d7a7d02b4bf6533d768ef32051d2e4d9bb61b2cffc62bae6ccd52f3ee16fba662666edbe#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=65a307"]\
           ],\
           "linkType": "HARD"\
@@ -1265,14 +1271,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:17.1.0", {\
-          "packageLocation": "./.yarn/cache/@commitlint-resolve-extends-npm-17.1.0-a12929b9a2-cc50ed7ca9.zip/node_modules/@commitlint/resolve-extends/",\
+        ["npm:17.3.0", {\
+          "packageLocation": "./.yarn/cache/@commitlint-resolve-extends-npm-17.3.0-530e2a3148-9f4a89f412.zip/node_modules/@commitlint/resolve-extends/",\
           "packageDependencies": [\
-            ["@commitlint/resolve-extends", "npm:17.1.0"],\
+            ["@commitlint/resolve-extends", "npm:17.3.0"],\
             ["@commitlint/config-validator", "npm:17.1.0"],\
             ["@commitlint/types", "npm:17.0.0"],\
             ["import-fresh", "npm:3.3.0"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash.mergewith", "npm:4.6.2"],\
             ["resolve-from", "npm:5.0.0"],\
             ["resolve-global", "npm:1.0.0"]\
           ],\
@@ -1280,11 +1286,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@commitlint/rules", [\
-        ["npm:17.2.0", {\
-          "packageLocation": "./.yarn/cache/@commitlint-rules-npm-17.2.0-87c66aeb7d-d13250a0a9.zip/node_modules/@commitlint/rules/",\
+        ["npm:17.3.0", {\
+          "packageLocation": "./.yarn/cache/@commitlint-rules-npm-17.3.0-f8ba11ee86-bc8c16701a.zip/node_modules/@commitlint/rules/",\
           "packageDependencies": [\
-            ["@commitlint/rules", "npm:17.2.0"],\
-            ["@commitlint/ensure", "npm:17.0.0"],\
+            ["@commitlint/rules", "npm:17.3.0"],\
+            ["@commitlint/ensure", "npm:17.3.0"],\
             ["@commitlint/message", "npm:17.2.0"],\
             ["@commitlint/to-lines", "npm:17.0.0"],\
             ["@commitlint/types", "npm:17.0.0"],\
@@ -4287,16 +4293,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:4f0121cfc0531d8cdbbedc652738177115ad777755e82ac204f8c186035fcced9c7ec42ab6205fc073a4da8faba17267a89600f8154a9232d8970b83a3998165#npm:4.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/cosmiconfig-typescript-loader-virtual-6a26939748/0/cache/cosmiconfig-typescript-loader-npm-4.0.0-cf43f43006-9151ffe62d.zip/node_modules/cosmiconfig-typescript-loader/",\
+        ["virtual:0c309a57dcf83911fac7c875fbd1cfccc2c110b4d1ac6371b86a69e6d7a7d02b4bf6533d768ef32051d2e4d9bb61b2cffc62bae6ccd52f3ee16fba662666edbe#npm:4.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/cosmiconfig-typescript-loader-virtual-4864646161/0/cache/cosmiconfig-typescript-loader-npm-4.0.0-cf43f43006-9151ffe62d.zip/node_modules/cosmiconfig-typescript-loader/",\
           "packageDependencies": [\
-            ["cosmiconfig-typescript-loader", "virtual:4f0121cfc0531d8cdbbedc652738177115ad777755e82ac204f8c186035fcced9c7ec42ab6205fc073a4da8faba17267a89600f8154a9232d8970b83a3998165#npm:4.0.0"],\
+            ["cosmiconfig-typescript-loader", "virtual:0c309a57dcf83911fac7c875fbd1cfccc2c110b4d1ac6371b86a69e6d7a7d02b4bf6533d768ef32051d2e4d9bb61b2cffc62bae6ccd52f3ee16fba662666edbe#npm:4.0.0"],\
             ["@types/cosmiconfig", null],\
             ["@types/node", "npm:14.18.26"],\
             ["@types/ts-node", null],\
             ["@types/typescript", null],\
             ["cosmiconfig", "npm:7.0.1"],\
-            ["ts-node", "virtual:4f0121cfc0531d8cdbbedc652738177115ad777755e82ac204f8c186035fcced9c7ec42ab6205fc073a4da8faba17267a89600f8154a9232d8970b83a3998165#npm:10.9.1"],\
+            ["ts-node", "virtual:0c309a57dcf83911fac7c875fbd1cfccc2c110b4d1ac6371b86a69e6d7a7d02b4bf6533d768ef32051d2e4d9bb61b2cffc62bae6ccd52f3ee16fba662666edbe#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=65a307"]\
           ],\
           "packagePeers": [\
@@ -7287,6 +7293,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["lodash.camelcase", [\
+        ["npm:4.3.0", {\
+          "packageLocation": "./.yarn/cache/lodash.camelcase-npm-4.3.0-bf268e3bf0-cb9227612f.zip/node_modules/lodash.camelcase/",\
+          "packageDependencies": [\
+            ["lodash.camelcase", "npm:4.3.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["lodash.capitalize", [\
         ["npm:4.2.1", {\
           "packageLocation": "./.yarn/cache/lodash.capitalize-npm-4.2.1-fe742c2310-d9195f31d4.zip/node_modules/lodash.capitalize/",\
@@ -7310,6 +7325,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/lodash.get-npm-4.4.2-7bda64ed87-e403047ddb.zip/node_modules/lodash.get/",\
           "packageDependencies": [\
             ["lodash.get", "npm:4.4.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["lodash.isfunction", [\
+        ["npm:3.0.9", {\
+          "packageLocation": "./.yarn/cache/lodash.isfunction-npm-3.0.9-72aaa7f66c-99e54c34b1.zip/node_modules/lodash.isfunction/",\
+          "packageDependencies": [\
+            ["lodash.isfunction", "npm:3.0.9"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7341,6 +7365,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["lodash.kebabcase", [\
+        ["npm:4.1.1", {\
+          "packageLocation": "./.yarn/cache/lodash.kebabcase-npm-4.1.1-89ffca7e1f-5a6c591619.zip/node_modules/lodash.kebabcase/",\
+          "packageDependencies": [\
+            ["lodash.kebabcase", "npm:4.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["lodash.map", [\
         ["npm:4.6.0", {\
           "packageLocation": "./.yarn/cache/lodash.map-npm-4.6.0-8013e2ad18-7369a41d7d.zip/node_modules/lodash.map/",\
@@ -7359,11 +7392,65 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["lodash.merge", [\
+        ["npm:4.6.2", {\
+          "packageLocation": "./.yarn/cache/lodash.merge-npm-4.6.2-77cb4416bf-ad580b4bdb.zip/node_modules/lodash.merge/",\
+          "packageDependencies": [\
+            ["lodash.merge", "npm:4.6.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["lodash.mergewith", [\
+        ["npm:4.6.2", {\
+          "packageLocation": "./.yarn/cache/lodash.mergewith-npm-4.6.2-7d2d4201ec-a6db2a9339.zip/node_modules/lodash.mergewith/",\
+          "packageDependencies": [\
+            ["lodash.mergewith", "npm:4.6.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["lodash.snakecase", [\
+        ["npm:4.1.1", {\
+          "packageLocation": "./.yarn/cache/lodash.snakecase-npm-4.1.1-b12cdbecb4-1685ed3e83.zip/node_modules/lodash.snakecase/",\
+          "packageDependencies": [\
+            ["lodash.snakecase", "npm:4.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["lodash.startcase", [\
+        ["npm:4.4.0", {\
+          "packageLocation": "./.yarn/cache/lodash.startcase-npm-4.4.0-637aa8cc15-c03a4a784a.zip/node_modules/lodash.startcase/",\
+          "packageDependencies": [\
+            ["lodash.startcase", "npm:4.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["lodash.uniq", [\
+        ["npm:4.5.0", {\
+          "packageLocation": "./.yarn/cache/lodash.uniq-npm-4.5.0-7c270dca85-a4779b57a8.zip/node_modules/lodash.uniq/",\
+          "packageDependencies": [\
+            ["lodash.uniq", "npm:4.5.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["lodash.uniqby", [\
         ["npm:4.7.0", {\
           "packageLocation": "./.yarn/cache/lodash.uniqby-npm-4.7.0-8d0bd68e95-659264545a.zip/node_modules/lodash.uniqby/",\
           "packageDependencies": [\
             ["lodash.uniqby", "npm:4.7.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["lodash.upperfirst", [\
+        ["npm:4.3.1", {\
+          "packageLocation": "./.yarn/cache/lodash.upperfirst-npm-4.3.1-e3b7c364ba-cadec69559.zip/node_modules/lodash.upperfirst/",\
+          "packageDependencies": [\
+            ["lodash.upperfirst", "npm:4.3.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8205,8 +8292,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["npm-check-git", "workspace:."],\
-            ["@commitlint/cli", "npm:17.2.0"],\
-            ["@commitlint/config-conventional", "npm:17.2.0"],\
+            ["@commitlint/cli", "npm:17.3.0"],\
+            ["@commitlint/config-conventional", "npm:17.3.0"],\
             ["@johngw/error", "npm:2.2.0"],\
             ["@semantic-release/commit-analyzer", "virtual:93ff9e54e7e85ba03f8777529e2e31fd687b3208f0bfd29f9526626fccebedcf25fd704ae938492bcd5692d38a16927bd020804d445cde5885dc772e9e1e1ff9#npm:9.0.2"],\
             ["@semantic-release/git", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:10.0.1"],\
@@ -10419,6 +10506,42 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
+        ["virtual:0c309a57dcf83911fac7c875fbd1cfccc2c110b4d1ac6371b86a69e6d7a7d02b4bf6533d768ef32051d2e4d9bb61b2cffc62bae6ccd52f3ee16fba662666edbe#npm:10.9.1", {\
+          "packageLocation": "./.yarn/__virtual__/ts-node-virtual-a4047f56c0/0/cache/ts-node-npm-10.9.1-6c268be7f4-090adff130.zip/node_modules/ts-node/",\
+          "packageDependencies": [\
+            ["ts-node", "virtual:0c309a57dcf83911fac7c875fbd1cfccc2c110b4d1ac6371b86a69e6d7a7d02b4bf6533d768ef32051d2e4d9bb61b2cffc62bae6ccd52f3ee16fba662666edbe#npm:10.9.1"],\
+            ["@cspotcode/source-map-support", "npm:0.8.1"],\
+            ["@swc/core", null],\
+            ["@swc/wasm", null],\
+            ["@tsconfig/node10", "npm:1.0.8"],\
+            ["@tsconfig/node12", "npm:1.0.9"],\
+            ["@tsconfig/node14", "npm:1.0.1"],\
+            ["@tsconfig/node16", "npm:1.0.2"],\
+            ["@types/node", "npm:14.18.26"],\
+            ["@types/swc__core", null],\
+            ["@types/swc__wasm", null],\
+            ["@types/typescript", null],\
+            ["acorn", "npm:8.6.0"],\
+            ["acorn-walk", "npm:8.2.0"],\
+            ["arg", "npm:4.1.3"],\
+            ["create-require", "npm:1.1.1"],\
+            ["diff", "npm:4.0.2"],\
+            ["make-error", "npm:1.3.6"],\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=65a307"],\
+            ["v8-compile-cache-lib", "npm:3.0.1"],\
+            ["yn", "npm:3.1.1"]\
+          ],\
+          "packagePeers": [\
+            "@swc/core",\
+            "@swc/wasm",\
+            "@types/node",\
+            "@types/swc__core",\
+            "@types/swc__wasm",\
+            "@types/typescript",\
+            "typescript"\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["virtual:253da7984942e1709c47a9881688474cbf8e8ff6bc7cf891c04df69e1b3eb2f1685871f2bbb5c9fd5656124fe7b25365753daf9f71b033a4c09a01c821b4468a#npm:9.1.1", {\
           "packageLocation": "./.yarn/__virtual__/ts-node-virtual-e5eef85057/0/cache/ts-node-npm-9.1.1-4ad31da228-356e2647b8.zip/node_modules/ts-node/",\
           "packageDependencies": [\
@@ -10460,42 +10583,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["diff", "npm:4.0.2"],\
             ["make-error", "npm:1.3.6"],\
             ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"],\
-            ["v8-compile-cache-lib", "npm:3.0.1"],\
-            ["yn", "npm:3.1.1"]\
-          ],\
-          "packagePeers": [\
-            "@swc/core",\
-            "@swc/wasm",\
-            "@types/node",\
-            "@types/swc__core",\
-            "@types/swc__wasm",\
-            "@types/typescript",\
-            "typescript"\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["virtual:4f0121cfc0531d8cdbbedc652738177115ad777755e82ac204f8c186035fcced9c7ec42ab6205fc073a4da8faba17267a89600f8154a9232d8970b83a3998165#npm:10.9.1", {\
-          "packageLocation": "./.yarn/__virtual__/ts-node-virtual-0becab3599/0/cache/ts-node-npm-10.9.1-6c268be7f4-090adff130.zip/node_modules/ts-node/",\
-          "packageDependencies": [\
-            ["ts-node", "virtual:4f0121cfc0531d8cdbbedc652738177115ad777755e82ac204f8c186035fcced9c7ec42ab6205fc073a4da8faba17267a89600f8154a9232d8970b83a3998165#npm:10.9.1"],\
-            ["@cspotcode/source-map-support", "npm:0.8.1"],\
-            ["@swc/core", null],\
-            ["@swc/wasm", null],\
-            ["@tsconfig/node10", "npm:1.0.8"],\
-            ["@tsconfig/node12", "npm:1.0.9"],\
-            ["@tsconfig/node14", "npm:1.0.1"],\
-            ["@tsconfig/node16", "npm:1.0.2"],\
-            ["@types/node", "npm:14.18.26"],\
-            ["@types/swc__core", null],\
-            ["@types/swc__wasm", null],\
-            ["@types/typescript", null],\
-            ["acorn", "npm:8.6.0"],\
-            ["acorn-walk", "npm:8.2.0"],\
-            ["arg", "npm:4.1.3"],\
-            ["create-require", "npm:1.1.1"],\
-            ["diff", "npm:4.0.2"],\
-            ["make-error", "npm:1.3.6"],\
-            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=65a307"],\
             ["v8-compile-cache-lib", "npm:3.0.1"],\
             ["yn", "npm:3.1.1"]\
           ],\
