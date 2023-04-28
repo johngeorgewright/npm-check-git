@@ -47,7 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:29.5.0"],\
             ["lint-staged", "npm:13.2.2"],\
-            ["pacote", "npm:15.1.2"],\
+            ["pacote", "npm:15.1.3"],\
             ["prettier", "npm:2.8.8"],\
             ["rimraf", "npm:4.4.1"],\
             ["semantic-release", "npm:20.1.3"],\
@@ -8350,6 +8350,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["minipass", "npm:4.2.8"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:5.0.0", {\
+          "packageLocation": "./.yarn/cache/minipass-npm-5.0.0-c64fb63c92-425dab2887.zip/node_modules/minipass/",\
+          "packageDependencies": [\
+            ["minipass", "npm:5.0.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["minipass-collect", [\
@@ -8805,7 +8812,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["npm-user-validate", "npm:1.0.1"],\
             ["npmlog", "npm:6.0.0"],\
             ["opener", "npm:1.5.2"],\
-            ["pacote", "npm:15.1.2"],\
+            ["pacote", "npm:15.1.3"],\
             ["parse-conflict-json", "npm:2.0.1"],\
             ["proc-log", "npm:1.0.0"],\
             ["qrcode-terminal", "npm:0.12.0"],\
@@ -8879,7 +8886,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:29.5.0"],\
             ["lint-staged", "npm:13.2.2"],\
-            ["pacote", "npm:15.1.2"],\
+            ["pacote", "npm:15.1.3"],\
             ["prettier", "npm:2.8.8"],\
             ["rimraf", "npm:4.4.1"],\
             ["semantic-release", "npm:20.1.3"],\
@@ -9437,17 +9444,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:15.1.2", {\
-          "packageLocation": "./.yarn/cache/pacote-npm-15.1.2-da5eded982-5b5597db29.zip/node_modules/pacote/",\
+        ["npm:15.1.3", {\
+          "packageLocation": "./.yarn/cache/pacote-npm-15.1.3-c419c60be9-de03c08e2e.zip/node_modules/pacote/",\
           "packageDependencies": [\
-            ["pacote", "npm:15.1.2"],\
+            ["pacote", "npm:15.1.3"],\
             ["@npmcli/git", "npm:4.0.4"],\
             ["@npmcli/installed-package-contents", "npm:2.0.2"],\
             ["@npmcli/promise-spawn", "npm:6.0.2"],\
             ["@npmcli/run-script", "npm:6.0.0"],\
             ["cacache", "npm:17.0.5"],\
             ["fs-minipass", "npm:3.0.1"],\
-            ["minipass", "npm:4.2.8"],\
+            ["minipass", "npm:5.0.0"],\
             ["npm-package-arg", "npm:10.1.0"],\
             ["npm-packlist", "npm:7.0.4"],\
             ["npm-pick-manifest", "npm:8.0.1"],\
