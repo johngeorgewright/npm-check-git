@@ -30,7 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@commitlint/cli", "npm:17.6.3"],\
             ["@commitlint/config-conventional", "npm:17.6.3"],\
-            ["@johngw/error", "npm:2.2.0"],\
+            ["@johngw/error", "npm:2.2.1"],\
             ["@semantic-release/commit-analyzer", "virtual:c75f2aad1cfb1386ad5202acb59b82b91b33a53c730761c9fc148a23fea3225950eae1f6d7635bbf8de086fa8e510a43201fc331edd45e67dc120f369cd0411e#npm:9.0.2"],\
             ["@semantic-release/git", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:10.0.1"],\
             ["@semantic-release/github", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:8.0.7"],\
@@ -1719,11 +1719,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@johngw/error", [\
-        ["npm:2.2.0", {\
-          "packageLocation": "./.yarn/cache/@johngw-error-npm-2.2.0-23e64f1ced-77ea2944b5.zip/node_modules/@johngw/error/",\
+        ["npm:2.2.1", {\
+          "packageLocation": "./.yarn/cache/@johngw-error-npm-2.2.1-80284f7b98-8716340299.zip/node_modules/@johngw/error/",\
           "packageDependencies": [\
-            ["@johngw/error", "npm:2.2.0"],\
-            ["tslib", "npm:2.3.1"]\
+            ["@johngw/error", "npm:2.2.1"],\
+            ["tslib", "npm:2.5.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8859,7 +8859,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["npm-check-git", "workspace:."],\
             ["@commitlint/cli", "npm:17.6.3"],\
             ["@commitlint/config-conventional", "npm:17.6.3"],\
-            ["@johngw/error", "npm:2.2.0"],\
+            ["@johngw/error", "npm:2.2.1"],\
             ["@semantic-release/commit-analyzer", "virtual:c75f2aad1cfb1386ad5202acb59b82b91b33a53c730761c9fc148a23fea3225950eae1f6d7635bbf8de086fa8e510a43201fc331edd45e67dc120f369cd0411e#npm:9.0.2"],\
             ["@semantic-release/git", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:10.0.1"],\
             ["@semantic-release/github", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:8.0.7"],\
@@ -11388,6 +11388,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/tslib-npm-2.3.1-0e21e18015-de17a98d46.zip/node_modules/tslib/",\
           "packageDependencies": [\
             ["tslib", "npm:2.3.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:2.5.0", {\
+          "packageLocation": "./.yarn/cache/tslib-npm-2.5.0-bb364efebd-ae3ed5f9ce.zip/node_modules/tslib/",\
+          "packageDependencies": [\
+            ["tslib", "npm:2.5.0"]\
           ],\
           "linkType": "HARD"\
         }]\
