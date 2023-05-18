@@ -47,7 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:29.5.0"],\
             ["lint-staged", "npm:13.2.2"],\
-            ["pacote", "npm:15.1.3"],\
+            ["pacote", "npm:15.2.0"],\
             ["prettier", "npm:2.8.8"],\
             ["rimraf", "npm:4.4.1"],\
             ["semantic-release", "npm:20.1.3"],\
@@ -8802,7 +8802,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["npm-user-validate", "npm:1.0.1"],\
             ["npmlog", "npm:6.0.0"],\
             ["opener", "npm:1.5.2"],\
-            ["pacote", "npm:15.1.3"],\
+            ["pacote", "npm:15.2.0"],\
             ["parse-conflict-json", "npm:2.0.1"],\
             ["proc-log", "npm:1.0.0"],\
             ["qrcode-terminal", "npm:0.12.0"],\
@@ -8876,7 +8876,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:29.5.0"],\
             ["lint-staged", "npm:13.2.2"],\
-            ["pacote", "npm:15.1.3"],\
+            ["pacote", "npm:15.2.0"],\
             ["prettier", "npm:2.8.8"],\
             ["rimraf", "npm:4.4.1"],\
             ["semantic-release", "npm:20.1.3"],\
@@ -9434,10 +9434,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:15.1.3", {\
-          "packageLocation": "./.yarn/cache/pacote-npm-15.1.3-c419c60be9-de03c08e2e.zip/node_modules/pacote/",\
+        ["npm:15.2.0", {\
+          "packageLocation": "./.yarn/cache/pacote-npm-15.2.0-b9ed3321e9-c731572be2.zip/node_modules/pacote/",\
           "packageDependencies": [\
-            ["pacote", "npm:15.1.3"],\
+            ["pacote", "npm:15.2.0"],\
             ["@npmcli/git", "npm:4.0.4"],\
             ["@npmcli/installed-package-contents", "npm:2.0.2"],\
             ["@npmcli/promise-spawn", "npm:6.0.2"],\
