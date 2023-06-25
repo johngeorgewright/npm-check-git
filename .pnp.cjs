@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/release-notes-generator", "virtual:c75f2aad1cfb1386ad5202acb59b82b91b33a53c730761c9fc148a23fea3225950eae1f6d7635bbf8de086fa8e510a43201fc331edd45e67dc120f369cd0411e#npm:10.0.3"],\
             ["@types/hosted-git-info", "npm:3.0.2"],\
             ["@types/jest", "npm:29.5.2"],\
-            ["@types/node", "npm:17.0.1"],\
+            ["@types/node", "npm:17.0.45"],\
             ["@types/pacote", "npm:11.1.5"],\
             ["@types/yargs", "npm:17.0.19"],\
             ["commitizen", "npm:4.3.0"],\
@@ -2958,6 +2958,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-17.0.1-d7f4a32266-16a5aa2778.zip/node_modules/@types/node/",\
           "packageDependencies": [\
             ["@types/node", "npm:17.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:17.0.45", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-17.0.45-fdb38d1624-aa04366b91.zip/node_modules/@types/node/",\
+          "packageDependencies": [\
+            ["@types/node", "npm:17.0.45"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8955,7 +8962,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/release-notes-generator", "virtual:c75f2aad1cfb1386ad5202acb59b82b91b33a53c730761c9fc148a23fea3225950eae1f6d7635bbf8de086fa8e510a43201fc331edd45e67dc120f369cd0411e#npm:10.0.3"],\
             ["@types/hosted-git-info", "npm:3.0.2"],\
             ["@types/jest", "npm:29.5.2"],\
-            ["@types/node", "npm:17.0.1"],\
+            ["@types/node", "npm:17.0.45"],\
             ["@types/pacote", "npm:11.1.5"],\
             ["@types/yargs", "npm:17.0.19"],\
             ["commitizen", "npm:4.3.0"],\
@@ -11402,7 +11409,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node12", "npm:1.0.9"],\
             ["@tsconfig/node14", "npm:1.0.1"],\
             ["@tsconfig/node16", "npm:1.0.2"],\
-            ["@types/node", "npm:17.0.1"],\
+            ["@types/node", "npm:17.0.45"],\
             ["@types/swc__core", null],\
             ["@types/swc__wasm", null],\
             ["@types/typescript", null],\
