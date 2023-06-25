@@ -2269,10 +2269,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:17.0.1":
+"@types/node@npm:*":
   version: 17.0.1
   resolution: "@types/node@npm:17.0.1"
   checksum: 16a5aa2778e1e49443d272f0da20af66c143337ddb14d9f36d5e7eb1e11ebbf195769d3d495ec5456ec94fe3d0e703c5df1ac279a05c7dc2a1220474467c1103
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:17.0.45":
+  version: 17.0.45
+  resolution: "@types/node@npm:17.0.45"
+  checksum: aa04366b9103b7d6cfd6b2ef64182e0eaa7d4462c3f817618486ea0422984c51fc69fd0d436eae6c9e696ddfdbec9ccaa27a917f7c2e8c75c5d57827fe3d95e8
   languageName: node
   linkType: hard
 
@@ -7568,7 +7575,7 @@ __metadata:
     "@semantic-release/release-notes-generator": 10.0.3
     "@types/hosted-git-info": 3.0.2
     "@types/jest": 29.5.2
-    "@types/node": 17.0.1
+    "@types/node": 17.0.45
     "@types/pacote": 11.1.5
     "@types/yargs": 17.0.19
     commitizen: 4.3.0
