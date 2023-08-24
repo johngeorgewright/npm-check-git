@@ -2290,10 +2290,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.15.3":
-  version: 18.15.3
-  resolution: "@types/node@npm:18.15.3"
-  checksum: 31b1d92475a82c30de29aa6c0771b18a276552d191283b4423ba2d61b3f01159bf0d02576c0b7cc834b043997893800db6bb47f246083ed85aa45e79c80875d7
+"@types/node@npm:18.17.9":
+  version: 18.17.9
+  resolution: "@types/node@npm:18.17.9"
+  checksum: 0d5835710e49a654a1ca34167e7cd504cc709c006006ebe9b23c360dac5637c6c4f1b4f3aff33df1b7f9debfb9ad8bd81da2fc4540970d2ad56eb479cda77613
   languageName: node
   linkType: hard
 
@@ -7659,7 +7659,7 @@ __metadata:
     "@semantic-release/release-notes-generator": 10.0.3
     "@types/hosted-git-info": 3.0.2
     "@types/jest": 29.5.4
-    "@types/node": 18.15.3
+    "@types/node": 18.17.9
     "@types/pacote": 11.1.5
     "@types/yargs": 17.0.19
     commitizen: 4.3.0
