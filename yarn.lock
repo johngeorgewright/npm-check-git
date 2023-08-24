@@ -7408,6 +7408,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"npm-packlist@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "npm-packlist@npm:8.0.0"
+  dependencies:
+    ignore-walk: ^6.0.0
+  checksum: 7b6ac15710a1d6d8b7fca2db4cdbb87641eb8398ea70efde288538e7713a66a21c43ead7635affcf00bfd46b6643e18b03078449986e25b0753078c05b37cbcc
+  languageName: node
+  linkType: hard
+
 "npm-pick-manifest@npm:^8.0.0":
   version: 8.0.1
   resolution: "npm-pick-manifest@npm:8.0.1"
@@ -7857,8 +7866,8 @@ __metadata:
   linkType: hard
 
 "pacote@npm:^17.0.0":
-  version: 17.0.2
-  resolution: "pacote@npm:17.0.2"
+  version: 17.0.3
+  resolution: "pacote@npm:17.0.3"
   dependencies:
     "@npmcli/git": ^5.0.0
     "@npmcli/installed-package-contents": ^2.0.1
@@ -7868,7 +7877,7 @@ __metadata:
     fs-minipass: ^3.0.0
     minipass: ^7.0.2
     npm-package-arg: ^11.0.0
-    npm-packlist: ^7.0.0
+    npm-packlist: ^8.0.0
     npm-pick-manifest: ^9.0.0
     npm-registry-fetch: ^16.0.0
     proc-log: ^3.0.0
@@ -7880,7 +7889,7 @@ __metadata:
     tar: ^6.1.11
   bin:
     pacote: lib/bin.js
-  checksum: bf3efdb550696fea7f0d56d924686b3557c77ba6906283d8dafdf466e05feeb106dffe9cefe685e9bb35b0f54ead501b0c24cbb117b4cc91bea6476f2e859e3f
+  checksum: f1a82ee48ff53c69dfa710ee79b5cc344e6fcc413fdc3d8e134d1dc1587b8970ebfad1ca6b5f5f1fdbd7f2d0dd521aa11f214f3b1261f02a3b55bf83b5efa8b9
   languageName: node
   linkType: hard
 

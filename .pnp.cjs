@@ -47,7 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:29.6.4"],\
             ["lint-staged", "npm:14.0.1"],\
-            ["pacote", "npm:17.0.2"],\
+            ["pacote", "npm:17.0.3"],\
             ["prettier", "npm:2.8.8"],\
             ["rimraf", "npm:5.0.1"],\
             ["semantic-release", "npm:21.1.1"],\
@@ -8639,7 +8639,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:29.6.4"],\
             ["lint-staged", "npm:14.0.1"],\
-            ["pacote", "npm:17.0.2"],\
+            ["pacote", "npm:17.0.3"],\
             ["prettier", "npm:2.8.8"],\
             ["rimraf", "npm:5.0.1"],\
             ["semantic-release", "npm:21.1.1"],\
@@ -8707,6 +8707,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/npm-packlist-npm-7.0.4-1c0b919056-5ffa1f8f0b.zip/node_modules/npm-packlist/",\
           "packageDependencies": [\
             ["npm-packlist", "npm:7.0.4"],\
+            ["ignore-walk", "npm:6.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:8.0.0", {\
+          "packageLocation": "./.yarn/cache/npm-packlist-npm-8.0.0-c9dabe0e18-7b6ac15710.zip/node_modules/npm-packlist/",\
+          "packageDependencies": [\
+            ["npm-packlist", "npm:8.0.0"],\
             ["ignore-walk", "npm:6.0.2"]\
           ],\
           "linkType": "HARD"\
@@ -9088,10 +9096,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:17.0.2", {\
-          "packageLocation": "./.yarn/cache/pacote-npm-17.0.2-08be34a34d-bf3efdb550.zip/node_modules/pacote/",\
+        ["npm:17.0.3", {\
+          "packageLocation": "./.yarn/cache/pacote-npm-17.0.3-cf1928e038-f1a82ee48f.zip/node_modules/pacote/",\
           "packageDependencies": [\
-            ["pacote", "npm:17.0.2"],\
+            ["pacote", "npm:17.0.3"],\
             ["@npmcli/git", "npm:5.0.1"],\
             ["@npmcli/installed-package-contents", "npm:2.0.2"],\
             ["@npmcli/promise-spawn", "npm:6.0.2"],\
@@ -9100,7 +9108,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fs-minipass", "npm:3.0.1"],\
             ["minipass", "npm:7.0.3"],\
             ["npm-package-arg", "npm:11.0.0"],\
-            ["npm-packlist", "npm:7.0.4"],\
+            ["npm-packlist", "npm:8.0.0"],\
             ["npm-pick-manifest", "npm:9.0.0"],\
             ["npm-registry-fetch", "npm:16.0.0"],\
             ["proc-log", "npm:3.0.0"],\
