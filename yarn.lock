@@ -7220,7 +7220,7 @@ __metadata:
     "@types/yargs": 17.0.19
     commitizen: 4.3.0
     cz-conventional-changelog: 3.3.0
-    hosted-git-info: ^6.0.0
+    hosted-git-info: ^7.0.0
     husky: 8.0.3
     jest: 29.6.4
     lint-staged: 14.0.1
