@@ -42,7 +42,7 @@
     "@semantic-release/release-notes-generator": "11.0.4",
     "@types/hosted-git-info": "3.0.2",
     "@types/jest": "29.5.4",
-    "@types/node": "18.17.9",
+    "@types/node": "18.17.11",
     "@types/pacote": "11.1.5",
     "@types/yargs": "17.0.19",
     "commitizen": "4.3.0",
