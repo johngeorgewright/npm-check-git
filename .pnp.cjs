@@ -47,7 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:29.6.4"],\
             ["lint-staged", "npm:14.0.1"],\
-            ["pacote", "npm:17.0.3"],\
+            ["pacote", "npm:17.0.4"],\
             ["prettier", "npm:2.8.8"],\
             ["rimraf", "npm:5.0.1"],\
             ["semantic-release", "npm:21.1.1"],\
@@ -2119,6 +2119,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["which", "npm:3.0.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:7.0.0", {\
+          "packageLocation": "./.yarn/cache/@npmcli-promise-spawn-npm-7.0.0-047440d9f0-22a8c4fd4e.zip/node_modules/@npmcli/promise-spawn/",\
+          "packageDependencies": [\
+            ["@npmcli/promise-spawn", "npm:7.0.0"],\
+            ["which", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@npmcli/query", [\
@@ -2153,6 +2161,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["node-gyp", "npm:9.0.0"],\
             ["read-package-json-fast", "npm:3.0.2"],\
             ["which", "npm:3.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:7.0.1", {\
+          "packageLocation": "./.yarn/cache/@npmcli-run-script-npm-7.0.1-b994b77f36-1713dda8bf.zip/node_modules/@npmcli/run-script/",\
+          "packageDependencies": [\
+            ["@npmcli/run-script", "npm:7.0.1"],\
+            ["@npmcli/node-gyp", "npm:3.0.0"],\
+            ["@npmcli/promise-spawn", "npm:7.0.0"],\
+            ["node-gyp", "npm:9.0.0"],\
+            ["read-package-json-fast", "npm:3.0.2"],\
+            ["which", "npm:4.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6394,6 +6414,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["isexe", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:3.1.1", {\
+          "packageLocation": "./.yarn/cache/isexe-npm-3.1.1-9c0061eead-7fe1931ee4.zip/node_modules/isexe/",\
+          "packageDependencies": [\
+            ["isexe", "npm:3.1.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["issue-parser", [\
@@ -8729,7 +8756,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:29.6.4"],\
             ["lint-staged", "npm:14.0.1"],\
-            ["pacote", "npm:17.0.3"],\
+            ["pacote", "npm:17.0.4"],\
             ["prettier", "npm:2.8.8"],\
             ["rimraf", "npm:5.0.1"],\
             ["semantic-release", "npm:21.1.1"],\
@@ -9186,14 +9213,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:17.0.3", {\
-          "packageLocation": "./.yarn/cache/pacote-npm-17.0.3-cf1928e038-f1a82ee48f.zip/node_modules/pacote/",\
+        ["npm:17.0.4", {\
+          "packageLocation": "./.yarn/cache/pacote-npm-17.0.4-73ee4d19e6-931968cfb5.zip/node_modules/pacote/",\
           "packageDependencies": [\
-            ["pacote", "npm:17.0.3"],\
+            ["pacote", "npm:17.0.4"],\
             ["@npmcli/git", "npm:5.0.1"],\
             ["@npmcli/installed-package-contents", "npm:2.0.2"],\
-            ["@npmcli/promise-spawn", "npm:6.0.2"],\
-            ["@npmcli/run-script", "npm:6.0.0"],\
+            ["@npmcli/promise-spawn", "npm:7.0.0"],\
+            ["@npmcli/run-script", "npm:7.0.1"],\
             ["cacache", "npm:18.0.0"],\
             ["fs-minipass", "npm:3.0.1"],\
             ["minipass", "npm:7.0.3"],\
@@ -11429,6 +11456,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["which", "npm:3.0.1"],\
             ["isexe", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/which-npm-4.0.0-dd31cd4928-f17e84c042.zip/node_modules/which/",\
+          "packageDependencies": [\
+            ["which", "npm:4.0.0"],\
+            ["isexe", "npm:3.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
