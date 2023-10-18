@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/hosted-git-info", "npm:3.0.4"],\
             ["@types/jest", "npm:29.5.6"],\
             ["@types/node", "npm:18.18.5"],\
-            ["@types/pacote", "npm:11.1.6"],\
+            ["@types/pacote", "npm:11.1.7"],\
             ["@types/yargs", "npm:17.0.28"],\
             ["commitizen", "npm:4.3.0"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
@@ -3135,10 +3135,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/pacote", [\
-        ["npm:11.1.6", {\
-          "packageLocation": "./.yarn/cache/@types-pacote-npm-11.1.6-0156322b11-f710d83de5.zip/node_modules/@types/pacote/",\
+        ["npm:11.1.7", {\
+          "packageLocation": "./.yarn/cache/@types-pacote-npm-11.1.7-73647d5d2a-fb5e076190.zip/node_modules/@types/pacote/",\
           "packageDependencies": [\
-            ["@types/pacote", "npm:11.1.6"],\
+            ["@types/pacote", "npm:11.1.7"],\
             ["@types/node", "npm:17.0.1"],\
             ["@types/npm-registry-fetch", "npm:8.0.2"],\
             ["@types/npmlog", "npm:4.1.3"],\
@@ -8919,7 +8919,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/hosted-git-info", "npm:3.0.4"],\
             ["@types/jest", "npm:29.5.6"],\
             ["@types/node", "npm:18.18.5"],\
-            ["@types/pacote", "npm:11.1.6"],\
+            ["@types/pacote", "npm:11.1.7"],\
             ["@types/yargs", "npm:17.0.28"],\
             ["commitizen", "npm:4.3.0"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
