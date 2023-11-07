@@ -36,7 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/github", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:9.2.1"],\
             ["@semantic-release/npm", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:10.0.6"],\
             ["@semantic-release/release-notes-generator", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:11.0.7"],\
-            ["@types/hosted-git-info", "npm:3.0.4"],\
+            ["@types/hosted-git-info", "npm:3.0.5"],\
             ["@types/jest", "npm:29.5.7"],\
             ["@types/node", "npm:18.18.8"],\
             ["@types/pacote", "npm:11.1.7"],\
@@ -3002,10 +3002,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/hosted-git-info", [\
-        ["npm:3.0.4", {\
-          "packageLocation": "./.yarn/cache/@types-hosted-git-info-npm-3.0.4-c1a0f75aa2-a141ac194f.zip/node_modules/@types/hosted-git-info/",\
+        ["npm:3.0.5", {\
+          "packageLocation": "./.yarn/cache/@types-hosted-git-info-npm-3.0.5-e4aa0f0d6d-c176be62d5.zip/node_modules/@types/hosted-git-info/",\
           "packageDependencies": [\
-            ["@types/hosted-git-info", "npm:3.0.4"]\
+            ["@types/hosted-git-info", "npm:3.0.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8917,7 +8917,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@semantic-release/github", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:9.2.1"],\
             ["@semantic-release/npm", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:10.0.6"],\
             ["@semantic-release/release-notes-generator", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:11.0.7"],\
-            ["@types/hosted-git-info", "npm:3.0.4"],\
+            ["@types/hosted-git-info", "npm:3.0.5"],\
             ["@types/jest", "npm:29.5.7"],\
             ["@types/node", "npm:18.18.8"],\
             ["@types/pacote", "npm:11.1.7"],\
