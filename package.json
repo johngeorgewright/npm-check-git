@@ -41,7 +41,7 @@
     "@semantic-release/npm": "10.0.6",
     "@semantic-release/release-notes-generator": "11.0.7",
     "@types/hosted-git-info": "3.0.5",
-    "@types/jest": "29.5.7",
+    "@types/jest": "29.5.8",
     "@types/node": "18.18.8",
     "@types/pacote": "11.1.7",
     "@types/yargs": "17.0.30",
