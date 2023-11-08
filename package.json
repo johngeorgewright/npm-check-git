@@ -43,7 +43,7 @@
     "@types/hosted-git-info": "3.0.5",
     "@types/jest": "29.5.8",
     "@types/node": "18.18.8",
-    "@types/pacote": "11.1.7",
+    "@types/pacote": "11.1.8",
     "@types/yargs": "17.0.31",
     "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",

@@ -2411,15 +2411,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/pacote@npm:11.1.7":
-  version: 11.1.7
-  resolution: "@types/pacote@npm:11.1.7"
+"@types/pacote@npm:11.1.8":
+  version: 11.1.8
+  resolution: "@types/pacote@npm:11.1.8"
   dependencies:
     "@types/node": "*"
     "@types/npm-registry-fetch": "*"
     "@types/npmlog": "*"
     "@types/ssri": "*"
-  checksum: fb5e0761909e2ef85d8a6b3626b6644359bb04103a7da02b20f39d41382d6032687eec27efd7a379bd29d07007d30acf205e83a1a6b5f79f10ebe2e6b66b2adc
+  checksum: 6c652ad055180dd1ea6d8f446ef2a7568c07a9e645b421443403ccd5c7c5a2c7062e9cc9fa498b7f649ccf13ac35cf8b5c8dade0bdfde3a6ee0b0487d0562328
   languageName: node
   linkType: hard
 
@@ -7571,7 +7571,7 @@ __metadata:
     "@types/hosted-git-info": 3.0.5
     "@types/jest": 29.5.8
     "@types/node": 18.18.8
-    "@types/pacote": 11.1.7
+    "@types/pacote": 11.1.8
     "@types/yargs": 17.0.31
     commitizen: 4.3.0
     cz-conventional-changelog: 3.3.0
