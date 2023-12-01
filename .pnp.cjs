@@ -47,7 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:29.7.0"],\
             ["lint-staged", "npm:14.0.1"],\
-            ["pacote", "npm:17.0.4"],\
+            ["pacote", "npm:17.0.5"],\
             ["prettier", "npm:2.8.8"],\
             ["rimraf", "npm:5.0.5"],\
             ["semantic-release", "npm:21.1.2"],\
@@ -8969,7 +8969,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:29.7.0"],\
             ["lint-staged", "npm:14.0.1"],\
-            ["pacote", "npm:17.0.4"],\
+            ["pacote", "npm:17.0.5"],\
             ["prettier", "npm:2.8.8"],\
             ["rimraf", "npm:5.0.5"],\
             ["semantic-release", "npm:21.1.2"],\
@@ -9426,10 +9426,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:17.0.4", {\
-          "packageLocation": "./.yarn/cache/pacote-npm-17.0.4-73ee4d19e6-931968cfb5.zip/node_modules/pacote/",\
+        ["npm:17.0.5", {\
+          "packageLocation": "./.yarn/cache/pacote-npm-17.0.5-fdf2c885b3-9cc3f4e0bf.zip/node_modules/pacote/",\
           "packageDependencies": [\
-            ["pacote", "npm:17.0.4"],\
+            ["pacote", "npm:17.0.5"],\
             ["@npmcli/git", "npm:5.0.1"],\
             ["@npmcli/installed-package-contents", "npm:2.0.2"],\
             ["@npmcli/promise-spawn", "npm:7.0.0"],\
