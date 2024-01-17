@@ -2062,12 +2062,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sigstore/bundle@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@sigstore/bundle@npm:2.0.0"
+"@sigstore/bundle@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "@sigstore/bundle@npm:2.1.1"
   dependencies:
     "@sigstore/protobuf-specs": ^0.2.1
-  checksum: 98d702bdf2dbf902cf31c506e1f2be5c6bf80dc47f70637f86672db0f44558149e6f9bc7bc4380ae6285fcb332e752e790dbb1713ef33652af5936f97fcab30c
+  checksum: c441904765e94710288f3fcf0458f2544a9b480b239219eb738f11bddb2518a5dc5b4a3f8ca22884d7948f1034d4b802ce74a4d21517a35b7ac52970f78971f0
+  languageName: node
+  linkType: hard
+
+"@sigstore/core@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@sigstore/core@npm:0.2.0"
+  checksum: e3226bcb8edf663001f11b6ac45190d21a9583a6bc7b6823deae171138a4f39fd1467f9c444f198e4e5930b4cf623035f5ebd0d9a864973818968977ecadb007
   languageName: node
   linkType: hard
 
@@ -2096,14 +2103,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sigstore/sign@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@sigstore/sign@npm:2.0.0"
+"@sigstore/sign@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "@sigstore/sign@npm:2.2.1"
   dependencies:
-    "@sigstore/bundle": ^2.0.0
+    "@sigstore/bundle": ^2.1.1
+    "@sigstore/core": ^0.2.0
     "@sigstore/protobuf-specs": ^0.2.1
     make-fetch-happen: ^13.0.0
-  checksum: fd612868ba6b252c055ff49213f9b6080c195d78e2702d937462a9eb601158c77d5e4c64a93f194fa105bee94d9a27c94d5de97bf36423d4c9989f5c2542fde4
+  checksum: 198d6c0c0f1b1ff21546289478d26f9068ed7ead95f104bda1bdda8b2ce48393e784660a2c2d9ec1afe91260347ad677862493f1a80ca28e82b557cab219cc71
   languageName: node
   linkType: hard
 
@@ -2117,13 +2125,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sigstore/tuf@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@sigstore/tuf@npm:2.0.0"
+"@sigstore/tuf@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "@sigstore/tuf@npm:2.3.0"
   dependencies:
     "@sigstore/protobuf-specs": ^0.2.1
-    tuf-js: ^2.0.0
-  checksum: 678cba5e234fe6197c69ed57b5036cc4702654f78ec9cf7498e1d92b85d9a4ef0c8f9e13c0dc1138badd9243d251d3f0290d943077599509d897d1054a057dfe
+    tuf-js: ^2.2.0
+  checksum: 77ed2931c4e80b13310ccb1f57623bdf20b8c1d1760a07ed2f0b6c31aeed799cb839646f688c7cc3be05e05f7cf25acce18d90a864774ce768834a6e9017deef
+  languageName: node
+  linkType: hard
+
+"@sigstore/verify@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "@sigstore/verify@npm:0.1.0"
+  dependencies:
+    "@sigstore/bundle": ^2.1.1
+    "@sigstore/core": ^0.2.0
+    "@sigstore/protobuf-specs": ^0.2.1
+  checksum: ddcd3482de4b9b01376b077574db05efa641fb26e9e9cd7cb9340e13767f6b1b39cbca47d80f2b5eacea88f49b99bcac957ff154c5c15461702f8c0f77d23541
   languageName: node
   linkType: hard
 
@@ -8168,8 +8187,8 @@ __metadata:
   linkType: hard
 
 "pacote@npm:^17.0.0":
-  version: 17.0.5
-  resolution: "pacote@npm:17.0.5"
+  version: 17.0.6
+  resolution: "pacote@npm:17.0.6"
   dependencies:
     "@npmcli/git": ^5.0.0
     "@npmcli/installed-package-contents": ^2.0.1
@@ -8186,12 +8205,12 @@ __metadata:
     promise-retry: ^2.0.1
     read-package-json: ^7.0.0
     read-package-json-fast: ^3.0.0
-    sigstore: ^2.0.0
+    sigstore: ^2.2.0
     ssri: ^10.0.0
     tar: ^6.1.11
   bin:
     pacote: lib/bin.js
-  checksum: 9cc3f4e0bfa1508b61ee301e08165cc137b14da5574b0b235b3072ea79bfbe1cd0ee855a21b4eb4406dd8507eef7563c8450cd74a9616b7661e89391d10a8fb5
+  checksum: e410331e0b1ea0d0764cdb412e8def62f90c3b2d7dccce16f3eb7c1f847d37d730e9661eff039f623777dccce1b3fcb4c4ad8c9e5950d60e6d8ef6eec924f8b3
   languageName: node
   linkType: hard
 
@@ -9153,15 +9172,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sigstore@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "sigstore@npm:2.0.0"
+"sigstore@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "sigstore@npm:2.2.0"
   dependencies:
-    "@sigstore/bundle": ^2.0.0
+    "@sigstore/bundle": ^2.1.1
+    "@sigstore/core": ^0.2.0
     "@sigstore/protobuf-specs": ^0.2.1
-    "@sigstore/sign": ^2.0.0
-    "@sigstore/tuf": ^2.0.0
-  checksum: d3c10b793257c231c54fa8076898f0f9a31d7e29572dbfc1aa8562213f8e986baeaba3db54a1bbe4f012fc2098c0c70dbf23ef137ba4d10ef188c8211689ca7e
+    "@sigstore/sign": ^2.2.1
+    "@sigstore/tuf": ^2.3.0
+    "@sigstore/verify": ^0.1.0
+  checksum: 607a15624c5c7c0de3241e5c9ea4dda6495a55104fcadb85c3712dba54c154054a4de657038258c72748bcf207915ec0e338b8c6b3db6d07b5c904d4bcc35f44
   languageName: node
   linkType: hard
 
@@ -9967,14 +9988,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tuf-js@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "tuf-js@npm:2.0.0"
+"tuf-js@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "tuf-js@npm:2.2.0"
   dependencies:
     "@tufjs/models": 2.0.0
     debug: ^4.3.4
     make-fetch-happen: ^13.0.0
-  checksum: af4bf442bfe2925d369e00b2153a40f4cb1ee459d48705cf145dd246d1e13779263def6244cbeb5b01f622c3c2b983a7f2bbaa06e55ddaf87c166c611340e3e8
+  checksum: 5e7ce24d5339a7c9255eb130e735f6fef36f02c916e6d2058602982803832afa086f31ae3b00d8cac6dca106644cc6f1b1463058dd513e2cc7b47c5783bb3098
   languageName: node
   linkType: hard
 

@@ -47,7 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:29.7.0"],\
             ["lint-staged", "npm:14.0.1"],\
-            ["pacote", "npm:17.0.5"],\
+            ["pacote", "npm:17.0.6"],\
             ["prettier", "npm:2.8.8"],\
             ["rimraf", "npm:5.0.5"],\
             ["semantic-release", "npm:21.1.2"],\
@@ -2746,11 +2746,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:2.0.0", {\
-          "packageLocation": "./.yarn/cache/@sigstore-bundle-npm-2.0.0-9f84e94e5c-98d702bdf2.zip/node_modules/@sigstore/bundle/",\
+        ["npm:2.1.1", {\
+          "packageLocation": "./.yarn/cache/@sigstore-bundle-npm-2.1.1-3fb38564d5-c441904765.zip/node_modules/@sigstore/bundle/",\
           "packageDependencies": [\
-            ["@sigstore/bundle", "npm:2.0.0"],\
+            ["@sigstore/bundle", "npm:2.1.1"],\
             ["@sigstore/protobuf-specs", "npm:0.2.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@sigstore/core", [\
+        ["npm:0.2.0", {\
+          "packageLocation": "./.yarn/cache/@sigstore-core-npm-0.2.0-eb04da6e91-e3226bcb8e.zip/node_modules/@sigstore/core/",\
+          "packageDependencies": [\
+            ["@sigstore/core", "npm:0.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2782,11 +2791,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:2.0.0", {\
-          "packageLocation": "./.yarn/cache/@sigstore-sign-npm-2.0.0-08c8def836-fd612868ba.zip/node_modules/@sigstore/sign/",\
+        ["npm:2.2.1", {\
+          "packageLocation": "./.yarn/cache/@sigstore-sign-npm-2.2.1-40a87cc872-198d6c0c0f.zip/node_modules/@sigstore/sign/",\
           "packageDependencies": [\
-            ["@sigstore/sign", "npm:2.0.0"],\
-            ["@sigstore/bundle", "npm:2.0.0"],\
+            ["@sigstore/sign", "npm:2.2.1"],\
+            ["@sigstore/bundle", "npm:2.1.1"],\
+            ["@sigstore/core", "npm:0.2.0"],\
             ["@sigstore/protobuf-specs", "npm:0.2.1"],\
             ["make-fetch-happen", "npm:13.0.0"]\
           ],\
@@ -2803,12 +2813,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:2.0.0", {\
-          "packageLocation": "./.yarn/cache/@sigstore-tuf-npm-2.0.0-17178685c2-678cba5e23.zip/node_modules/@sigstore/tuf/",\
+        ["npm:2.3.0", {\
+          "packageLocation": "./.yarn/cache/@sigstore-tuf-npm-2.3.0-2f82410c6e-77ed2931c4.zip/node_modules/@sigstore/tuf/",\
           "packageDependencies": [\
-            ["@sigstore/tuf", "npm:2.0.0"],\
+            ["@sigstore/tuf", "npm:2.3.0"],\
             ["@sigstore/protobuf-specs", "npm:0.2.1"],\
-            ["tuf-js", "npm:2.0.0"]\
+            ["tuf-js", "npm:2.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@sigstore/verify", [\
+        ["npm:0.1.0", {\
+          "packageLocation": "./.yarn/cache/@sigstore-verify-npm-0.1.0-f96ad32649-ddcd3482de.zip/node_modules/@sigstore/verify/",\
+          "packageDependencies": [\
+            ["@sigstore/verify", "npm:0.1.0"],\
+            ["@sigstore/bundle", "npm:2.1.1"],\
+            ["@sigstore/core", "npm:0.2.0"],\
+            ["@sigstore/protobuf-specs", "npm:0.2.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8969,7 +8991,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:29.7.0"],\
             ["lint-staged", "npm:14.0.1"],\
-            ["pacote", "npm:17.0.5"],\
+            ["pacote", "npm:17.0.6"],\
             ["prettier", "npm:2.8.8"],\
             ["rimraf", "npm:5.0.5"],\
             ["semantic-release", "npm:21.1.2"],\
@@ -9441,10 +9463,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:17.0.5", {\
-          "packageLocation": "./.yarn/cache/pacote-npm-17.0.5-fdf2c885b3-9cc3f4e0bf.zip/node_modules/pacote/",\
+        ["npm:17.0.6", {\
+          "packageLocation": "./.yarn/cache/pacote-npm-17.0.6-938340ead2-e410331e0b.zip/node_modules/pacote/",\
           "packageDependencies": [\
-            ["pacote", "npm:17.0.5"],\
+            ["pacote", "npm:17.0.6"],\
             ["@npmcli/git", "npm:5.0.1"],\
             ["@npmcli/installed-package-contents", "npm:2.0.2"],\
             ["@npmcli/promise-spawn", "npm:7.0.0"],\
@@ -9460,7 +9482,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["promise-retry", "npm:2.0.1"],\
             ["read-package-json", "npm:7.0.0"],\
             ["read-package-json-fast", "npm:3.0.2"],\
-            ["sigstore", "npm:2.0.0"],\
+            ["sigstore", "npm:2.2.0"],\
             ["ssri", "npm:10.0.3"],\
             ["tar", "npm:6.1.11"]\
           ],\
@@ -10495,14 +10517,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:2.0.0", {\
-          "packageLocation": "./.yarn/cache/sigstore-npm-2.0.0-fb30374285-d3c10b7932.zip/node_modules/sigstore/",\
+        ["npm:2.2.0", {\
+          "packageLocation": "./.yarn/cache/sigstore-npm-2.2.0-3d831b432c-607a15624c.zip/node_modules/sigstore/",\
           "packageDependencies": [\
-            ["sigstore", "npm:2.0.0"],\
-            ["@sigstore/bundle", "npm:2.0.0"],\
+            ["sigstore", "npm:2.2.0"],\
+            ["@sigstore/bundle", "npm:2.1.1"],\
+            ["@sigstore/core", "npm:0.2.0"],\
             ["@sigstore/protobuf-specs", "npm:0.2.1"],\
-            ["@sigstore/sign", "npm:2.0.0"],\
-            ["@sigstore/tuf", "npm:2.0.0"]\
+            ["@sigstore/sign", "npm:2.2.1"],\
+            ["@sigstore/tuf", "npm:2.3.0"],\
+            ["@sigstore/verify", "npm:0.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -11395,10 +11419,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:2.0.0", {\
-          "packageLocation": "./.yarn/cache/tuf-js-npm-2.0.0-506a503e99-af4bf442bf.zip/node_modules/tuf-js/",\
+        ["npm:2.2.0", {\
+          "packageLocation": "./.yarn/cache/tuf-js-npm-2.2.0-6b651a4290-5e7ce24d53.zip/node_modules/tuf-js/",\
           "packageDependencies": [\
-            ["tuf-js", "npm:2.0.0"],\
+            ["tuf-js", "npm:2.2.0"],\
             ["@tufjs/models", "npm:2.0.0"],\
             ["debug", "virtual:50e37043be1acfdf7937725b7d74aef4c69810b43ac5a25e26b5e903f030009562410c00098ae38ae5aee99bd1924c12abc3e4107f72b4d9b54731ba6e466239#npm:4.3.4"],\
             ["make-fetch-happen", "npm:13.0.0"]\
