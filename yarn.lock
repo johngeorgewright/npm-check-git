@@ -2387,12 +2387,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.19.10":
-  version: 18.19.10
-  resolution: "@types/node@npm:18.19.10"
+"@types/node@npm:18.19.11":
+  version: 18.19.11
+  resolution: "@types/node@npm:18.19.11"
   dependencies:
     undici-types: ~5.26.4
-  checksum: eea429c1fe8d25702c1e860f5c4ac053db3c52a5884646f458513b622a507660a6c88c717ee4f106e63c82f4ec6cafbf999e3f3f1d3083f7a40b4f715e03332b
+  checksum: 976bb7584dfed3a80b8ca1ac4f1a25b5b889893518a5401d02445db4d986036137637ca8e0bb3af12ee52ae86f78b1121cbe17eced3c95c8581a717fc6a7b7ec
   languageName: node
   linkType: hard
 
@@ -7632,7 +7632,7 @@ __metadata:
     "@semantic-release/release-notes-generator": 11.0.7
     "@types/hosted-git-info": 3.0.5
     "@types/jest": 29.5.11
-    "@types/node": 18.19.10
+    "@types/node": 18.19.11
     "@types/pacote": 11.1.8
     "@types/yargs": 17.0.32
     commitizen: 4.3.0
