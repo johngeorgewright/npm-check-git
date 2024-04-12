@@ -47,7 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:29.7.0"],\
             ["lint-staged", "npm:14.0.1"],\
-            ["pacote", "npm:17.0.6"],\
+            ["pacote", "npm:17.0.7"],\
             ["prettier", "npm:2.8.8"],\
             ["rimraf", "npm:5.0.5"],\
             ["semantic-release", "npm:21.1.2"],\
@@ -8991,7 +8991,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:29.7.0"],\
             ["lint-staged", "npm:14.0.1"],\
-            ["pacote", "npm:17.0.6"],\
+            ["pacote", "npm:17.0.7"],\
             ["prettier", "npm:2.8.8"],\
             ["rimraf", "npm:5.0.5"],\
             ["semantic-release", "npm:21.1.2"],\
@@ -9463,10 +9463,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:17.0.6", {\
-          "packageLocation": "./.yarn/cache/pacote-npm-17.0.6-938340ead2-e410331e0b.zip/node_modules/pacote/",\
+        ["npm:17.0.7", {\
+          "packageLocation": "./.yarn/cache/pacote-npm-17.0.7-1576d29aec-eadc2894f9.zip/node_modules/pacote/",\
           "packageDependencies": [\
-            ["pacote", "npm:17.0.6"],\
+            ["pacote", "npm:17.0.7"],\
             ["@npmcli/git", "npm:5.0.1"],\
             ["@npmcli/installed-package-contents", "npm:2.0.2"],\
             ["@npmcli/promise-spawn", "npm:7.0.0"],\
@@ -9478,7 +9478,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["npm-packlist", "npm:8.0.0"],\
             ["npm-pick-manifest", "npm:9.0.0"],\
             ["npm-registry-fetch", "npm:16.0.0"],\
-            ["proc-log", "npm:3.0.0"],\
+            ["proc-log", "npm:4.0.0"],\
             ["promise-retry", "npm:2.0.1"],\
             ["read-package-json", "npm:7.0.0"],\
             ["read-package-json-fast", "npm:3.0.2"],\
@@ -9767,6 +9767,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/proc-log-npm-3.0.0-a8c21c2f0f-02b64e1b39.zip/node_modules/proc-log/",\
           "packageDependencies": [\
             ["proc-log", "npm:3.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/proc-log-npm-4.0.0-8789708301-8a1cf614c1.zip/node_modules/proc-log/",\
+          "packageDependencies": [\
+            ["proc-log", "npm:4.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
