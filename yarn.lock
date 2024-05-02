@@ -10111,11 +10111,11 @@ __metadata:
 
 "typescript@patch:typescript@^4.4.3#~builtin<compat/typescript>":
   version: 4.5.4
-  resolution: "typescript@patch:typescript@npm%3A4.5.4#~builtin<compat/typescript>::version=4.5.4&hash=bcec9a"
+  resolution: "typescript@patch:typescript@npm%3A4.5.4#~builtin<compat/typescript>::version=4.5.4&hash=f1b8ea"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: eda87927f9cfb94aca9b5e47842daf37347ad3073133e17f556fbb6c18f3493c5b551eedab0f4b26774235ddb7acbe0087250d5285f72ce6819a0891dd5a74ed
+  checksum: caec3f6cc66140f32da0cdb2f77ce70d06d742c4f80033d45c96b7a252304ca2305fc1e7e910e9012ffec27c6ef3fe3cc19d90d76c92c50270ff38ee54c0ca59
   languageName: node
   linkType: hard
 
