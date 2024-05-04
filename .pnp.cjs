@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/yargs", "npm:17.0.32"],\
             ["commitizen", "npm:4.3.0"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
-            ["hosted-git-info", "npm:7.0.1"],\
+            ["hosted-git-info", "npm:7.0.2"],\
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:29.7.0"],\
             ["lint-staged", "npm:14.0.1"],\
@@ -6047,10 +6047,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:7.0.1", {\
-          "packageLocation": "./.yarn/cache/hosted-git-info-npm-7.0.1-88a3bd32d2-be5280f0a2.zip/node_modules/hosted-git-info/",\
+        ["npm:7.0.2", {\
+          "packageLocation": "./.yarn/cache/hosted-git-info-npm-7.0.2-cd527dd33f-467cf908a5.zip/node_modules/hosted-git-info/",\
           "packageDependencies": [\
-            ["hosted-git-info", "npm:7.0.1"],\
+            ["hosted-git-info", "npm:7.0.2"],\
             ["lru-cache", "npm:10.0.1"]\
           ],\
           "linkType": "HARD"\
@@ -8845,7 +8845,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/normalize-package-data-npm-6.0.0-eb6fb03d4d-741211a435.zip/node_modules/normalize-package-data/",\
           "packageDependencies": [\
             ["normalize-package-data", "npm:6.0.0"],\
-            ["hosted-git-info", "npm:7.0.1"],\
+            ["hosted-git-info", "npm:7.0.2"],\
             ["is-core-module", "npm:2.11.0"],\
             ["semver", "npm:7.3.5"],\
             ["validate-npm-package-license", "npm:3.0.4"]\
@@ -8987,7 +8987,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/yargs", "npm:17.0.32"],\
             ["commitizen", "npm:4.3.0"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
-            ["hosted-git-info", "npm:7.0.1"],\
+            ["hosted-git-info", "npm:7.0.2"],\
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:29.7.0"],\
             ["lint-staged", "npm:14.0.1"],\
@@ -9046,7 +9046,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/npm-package-arg-npm-11.0.0-aee6a122cd-d88dd22929.zip/node_modules/npm-package-arg/",\
           "packageDependencies": [\
             ["npm-package-arg", "npm:11.0.0"],\
-            ["hosted-git-info", "npm:7.0.1"],\
+            ["hosted-git-info", "npm:7.0.2"],\
             ["proc-log", "npm:3.0.0"],\
             ["semver", "npm:7.3.5"],\
             ["validate-npm-package-name", "npm:5.0.0"]\
@@ -10354,7 +10354,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["get-stream", "npm:6.0.1"],\
             ["git-log-parser", "npm:1.2.0"],\
             ["hook-std", "npm:3.0.0"],\
-            ["hosted-git-info", "npm:7.0.1"],\
+            ["hosted-git-info", "npm:7.0.2"],\
             ["lodash-es", "npm:4.17.21"],\
             ["marked", "npm:5.1.2"],\
             ["marked-terminal", "virtual:65eb8e20683a0700f60772d02da0e3ef115ddca2bac9e4ae126aa6ce9b0e6f2fe1acc6de9e6aee6a345c9b1e9b94b91ce8c06256545d332574b41029b22abadd#npm:5.1.1"],\
