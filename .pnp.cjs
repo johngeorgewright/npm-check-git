@@ -41,7 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:18.19.54"],\
             ["@types/pacote", "npm:11.1.8"],\
             ["@types/yargs", "npm:17.0.33"],\
-            ["commitizen", "npm:4.3.0"],\
+            ["commitizen", "npm:4.3.1"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
             ["hosted-git-info", "npm:7.0.2"],\
             ["husky", "npm:8.0.3"],\
@@ -4438,10 +4438,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:4.3.0", {\
-          "packageLocation": "./.yarn/cache/commitizen-npm-4.3.0-3695cdaf66-5a54f81ab7.zip/node_modules/commitizen/",\
+        ["npm:4.3.1", {\
+          "packageLocation": "./.yarn/cache/commitizen-npm-4.3.1-eab8087a7a-bcb42ee0cf.zip/node_modules/commitizen/",\
           "packageDependencies": [\
-            ["commitizen", "npm:4.3.0"],\
+            ["commitizen", "npm:4.3.1"],\
             ["cachedir", "npm:2.3.0"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
             ["dedent", "npm:0.7.0"],\
@@ -8985,7 +8985,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:18.19.54"],\
             ["@types/pacote", "npm:11.1.8"],\
             ["@types/yargs", "npm:17.0.33"],\
-            ["commitizen", "npm:4.3.0"],\
+            ["commitizen", "npm:4.3.1"],\
             ["cz-conventional-changelog", "npm:3.3.0"],\
             ["hosted-git-info", "npm:7.0.2"],\
             ["husky", "npm:8.0.3"],\
