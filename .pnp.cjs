@@ -49,7 +49,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:14.0.1"],\
             ["pacote", "npm:17.0.7"],\
             ["prettier", "npm:2.8.8"],\
-            ["rimraf", "npm:5.0.7"],\
+            ["rimraf", "npm:5.0.10"],\
             ["semantic-release", "npm:21.1.2"],\
             ["ts-jest", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:29.1.5"],\
             ["ts-node", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:10.9.2"],\
@@ -8993,7 +8993,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:14.0.1"],\
             ["pacote", "npm:17.0.7"],\
             ["prettier", "npm:2.8.8"],\
-            ["rimraf", "npm:5.0.7"],\
+            ["rimraf", "npm:5.0.10"],\
             ["semantic-release", "npm:21.1.2"],\
             ["ts-jest", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:29.1.5"],\
             ["ts-node", "virtual:38348e0489686711a2b9d7c4d6f2c06e293f54b2f048b54977bfd0382a20d8906c6b03c316ceca0308a59ad8a6bdc695074cafa1414a167e5a58fd96e9e6b335#npm:10.9.2"],\
@@ -10263,10 +10263,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:5.0.7", {\
-          "packageLocation": "./.yarn/cache/rimraf-npm-5.0.7-5c7aa1db5b-884852abf8.zip/node_modules/rimraf/",\
+        ["npm:5.0.10", {\
+          "packageLocation": "./.yarn/cache/rimraf-npm-5.0.10-d0c6647697-50e27388dd.zip/node_modules/rimraf/",\
           "packageDependencies": [\
-            ["rimraf", "npm:5.0.7"],\
+            ["rimraf", "npm:5.0.10"],\
             ["glob", "npm:10.3.7"]\
           ],\
           "linkType": "HARD"\
